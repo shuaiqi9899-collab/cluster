@@ -1,0 +1,9 @@
+{
+  "bundle": "tpami_fig6_github_20261104",
+  "file_count_including_manifest_and_checksums": 56,
+  "source_python_files": 35,
+  "data_files": 8,
+  "original_case_json_files_included": 0,
+  "excluded": "640 per-case results, historical logs/models, duplicate source archives",
+  "author_commit": "b9cfcd41fc1d34348e75352ec457dc1d08df8e02"
+}

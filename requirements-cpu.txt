@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+--find-links https://data.pyg.org/whl/torch-2.0.0+cpu.html
+numpy==1.23.5
+torch==2.0.0+cpu
+torch-scatter==2.1.2+pt20cpu
+torch-cluster==1.6.3+pt20cpu
+scipy==1.10.1
+scikit-learn==1.2.2
+networkx==3.1
+tqdm==4.65.0
+transformers==4.27.1
+matplotlib==3.7.5
+hyperopt==0.2.7
+scikit-opt==0.6.6

@@ -1,0 +1,63 @@
+diff --git a/main.py b/main.py
+index fc6c46c..8b44878 100644
+--- a/main.py
++++ b/main.py
+@@ -22,6 +22,11 @@ parser.add_argument('--dataset',
+                     type=str,
+                     help="Path of features and labels")
+ 
++parser.add_argument('--data_dir',
++                    default=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data'),
++                    type=str,
++                    help="Directory containing the dataset text files")
++
+ # Model dependent args
+ parser.add_argument('--use_cuda',
+                     default=True,
+@@ -211,7 +216,7 @@ if __name__ == '__main__':
+ 
+         # get sample serial numbers for rewards, out-of-order data features and labels
+         reward_mask, features, labels = load_data_shape(
+-            f'/datasets/SAR_DBSCAN/{args.dataset}.txt', args.train_size)
++            os.path.join(args.data_dir, f'{args.dataset}.txt'), args.train_size)
+         reward_mask, features, labels = [reward_mask], [features], [labels]
+         # pre agent find
+         se_label, uncertainty, se_label_with_noise = se_pre_partition(
+diff --git a/utils/build_graph.py b/utils/build_graph.py
+index a221ca8..6ab01e0 100644
+--- a/utils/build_graph.py
++++ b/utils/build_graph.py
+@@ -2,7 +2,6 @@ from torch_cluster import knn_graph, radius_graph
+ import torch
+ import torch.nn.functional as F
+ from torch_scatter import scatter_sum
+-from utils.code_tree import PartitionTree
+ from tqdm import tqdm
+ 
+ from silearn.graph import GraphSparse
+@@ -173,4 +172,4 @@ def k_selector_silearn(data, verbose=True):
+             k = k[0]
+         if verbose:
+             print(f'Select the most freq community point: {k}', flush=True)
+-    return k
+\ No newline at end of file
++    return k
+diff --git a/utils/utils.py b/utils/utils.py
+index 57b5d5d..6e03ea5 100644
+--- a/utils/utils.py
++++ b/utils/utils.py
+@@ -4,7 +4,6 @@ import random
+ from sklearn.preprocessing import MinMaxScaler
+ from sklearn import metrics
+ from sklearn.cluster import KMeans
+-from coclust.evaluation.external import accuracy
+ """
+     Utility functions to handle data and evaluate model.
+ """
+@@ -202,4 +201,4 @@ def inner_metrics(features, cur_labels):
+ 
+     ch = metrics.calinski_harabasz_score(features, cur_labels)
+ 
+-    return ch
+\ No newline at end of file
++    return ch

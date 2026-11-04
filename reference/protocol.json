@@ -1,0 +1,114 @@
+{
+  "author_repo": "https://github.com/RingBDStack/AR-DBSCAN",
+  "author_commit": "b9cfcd41fc1d34348e75352ec457dc1d08df8e02",
+  "datasets": [
+    "Aggregation",
+    "Compound",
+    "Pathbased",
+    "D31",
+    "Asymmetric",
+    "Skewed",
+    "Cure-t1",
+    "Cure-t2"
+  ],
+  "methods": [
+    "AR-DBSCAN",
+    "DRL-DBSCAN",
+    "Rand",
+    "BO-TPE",
+    "Anneal",
+    "PSO",
+    "GA",
+    "DE"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "workers": 16,
+  "defaults": {
+    "train_size": 0.2,
+    "episode_num": 15,
+    "layer_num": 3,
+    "step_num": 30,
+    "batch_size": 16,
+    "eps_size": 5,
+    "min_size": 4,
+    "reward_factor": 0.2
+  },
+  "round_definition": "New entries in the released training label_dic only, including initial center. Cache hits and detect-only calls do not advance this axis. First 30 fits per agent, hold last if fewer.",
+  "selection": "Local incumbent selected by 20% partial-label NMI; align agents; evaluate full-label NMI; cumulative historical maximum. Raw round curves also saved.",
+  "training": "Complete released default training, including pre-training detection and inter-episode detection; first 30 training fits displayed retrospectively.",
+  "uncertainties": [
+    "Paper does not publish exact seeds, plotting code or raw Fig.6 curves.",
+    "Paper does not explicitly resolve cache hits, detection, initial center, and whether partial- or full-label maxima select displayed predictions.",
+    "Released in-place module ID remapping retained; collisions flagged.",
+    "Released all-noise offset handling retained, though it can reuse labels after an all-noise partition.",
+    "Six baselines reconstructed with hyperopt/scikit-opt; exact original settings unavailable; BDE not supplied and omitted."
+  ],
+  "baseline_settings": {
+    "domain": "Eps (0,1], MinPts [1,ceil(N/4)]",
+    "rounds": 30,
+    "eps_grid": 0.008,
+    "minpts_grid": "ceil(floor(N/4)/64), anchored at 1",
+    "hyperopt": "0.2.7 defaults, including TPE default startup",
+    "population": 10,
+    "PSO": {
+      "w": 0.8,
+      "c1": 0.5,
+      "c2": 0.5
+    },
+    "GA": {
+      "prob_mut": 0.001
+    },
+    "DE": {
+      "F": 0.5,
+      "prob_mut": 0.3
+    }
+  },
+  "source_sha256": {
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "main.py": "4e942718152e0262eae385211f61beb396c34743ffb9822e4d88ef54829373ae",
+    "silearn/__init__.py": "73c49f09054ba38402884ee1fac4fe28e078aa597e7eac5ca469cf15eca12ce5",
+    "silearn/graph.py": "f340dc6fc0f89c0ca7c5c07be9fcd126f1a7b106aec1b4f4b3cfd214b53a785e",
+    "silearn/test/test_torch_ops.py": "b9b8dd2068466ea2f0eb858e3a01467cb6eb2d1676ff9b30ac17f5e487bd1da3",
+    "silearn/test/test_graph.py": "4eb293da7ebc573501e2432f999fd74e0b5795f72bc714fbbff8cc468022a2ac",
+    "silearn/test/test_scipy_ops.py": "18fa25efa6c9538e556fca5546dad9384079743d712042135bd04e4ec7dab10f",
+    "silearn/test/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "silearn/backends/functional.py": "615a92ba1e09a15d8b65dc09324208a254008c64894ba5f9d5a593c22bf697b8",
+    "silearn/backends/__init__.py": "740873c817008a97a49685ef44fcc04508e4c324a1b29e049c1ce2917e467642",
+    "silearn/backends/scipy_ops/graph_ops.py": "ceddc81e4a75c6d5a0d9f1b52fff67393420c23326a1fa58e157fd4b0b7e88a3",
+    "silearn/backends/scipy_ops/__init__.py": "bbf65f28c5eb3fa39a26592f5e5b773d257115946c79dbb9710914bad78a1a18",
+    "silearn/backends/scipy_ops/matrix_ops.py": "9e30b95b6d595b66cc810d3800782532a2531a2028f30d96c810626662869e04",
+    "silearn/backends/torch_ops/graph_ops.py": "e63421e07491032bddf2cd29537c5e06850c70602fea4c5cb1579a232d33ba1c",
+    "silearn/backends/torch_ops/__init__.py": "acdc305f7ad3402c2e2916fd41e626c673a944bc5e534f83030a5afd38a51398",
+    "silearn/backends/torch_ops/matrix_ops.py": "f085e5e76cd43431da04eddc1c5b9c7d41b90761a0ac8b31580c665b28ec4853",
+    "silearn/utils/external.py": "bdf357bde6c981d330d8b6c30439f108e8222afee2dc3215b2fec371fa78e6f9",
+    "silearn/model/encoding_tree.py": "6824c9a87c3a09a587215111449e97496466341a1a35c058399aefe05a1ffb77",
+    "silearn/model/batched_graph.py": "de22b6cf17c7b0bbb88571c069c0c2cce0a0968b170071d02c131277c93f498a",
+    "silearn/model/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "silearn/model/dynamic_graphs.py": "174d40c439e6740eab5b4d56f960b63646bef1a80075b20a15d580b67c85d1f2",
+    "silearn/optimizer/enc/operator.py": "beb430875a0bf01efa0762c69e43a744ea187576e3cb5f5b9161bab773e1d640",
+    "silearn/optimizer/enc/partitioning/propagation.py": "17d46928a7f3122491395199f5389e7167fcf8841eb227feb4eb818ffb89293a",
+    "silearn/optimizer/enc/partitioning/node_switch.py": "7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3",
+    "silearn/optimizer/enc/partitioning/merging.py": "c794eb704bce565d12a850a30fa2a827083eb73bd31d8215f9ac060aa65c54c2",
+    "utils/build_graph.py": "af1356b05986a3380123e0da80687214f1cefbc079245f6b75261535c994975d",
+    "utils/pre_partition.py": "6a1401d5fc216475e1675e6a23d7a9e891fcef23b448db2ed4b028cfad644755",
+    "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utils/utils.py": "814c97279dba2c94421498bf8873dbf515a12815f1116582ed26dd7d26a057df",
+    "utils/aggregation_noise.py": "4e12bf2ae8cc27a159635230883b499a88b14e7c2d9ac0e4bb5164f2c6b8d2e8",
+    "model/model.py": "d91c8e23c0b2d458df7f3a9014c7a83776e224a933707754a968d024380982c4",
+    "model/TD3.py": "1cdde7dd0189912e267dc57073fa7a05219f8dd689baf73b7670260825bcd7fe",
+    "model/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "model/environment.py": "8d9830e65f693dd2f93cd5cc682da67fefd1f7bdf6d69dcbb63e9df3efcba771",
+    "online/main_online.py": "dac9efcc8265018d50cf2cf9beaf46e7df2cff10b524dbc03ec9a3f31ccad880"
+  }
+}
