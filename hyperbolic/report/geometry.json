@@ -1,0 +1,1586 @@
+[
+  {
+    "dataset": "Aggregation",
+    "radius": 0.2,
+    "n": 788,
+    "scale": 0.6052613221333983,
+    "rank_correlation": 0.9999762775440998,
+    "normalized_distance_ratio_quantiles": [
+      0.9976721454258796,
+      0.9977902646827393,
+      1.0000422356780558,
+      1.0065170012688327,
+      1.0237201563629494
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 2.7087707077377843e-14,
+    "frechet_iterations": 2,
+    "frechet_residual": 2.4411794977462195e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9964467005076143,
+        "normalized_radius_ratio_quantiles": [
+          0.9976721471111006,
+          0.9978913997144756,
+          1.001734166474832,
+          1.0111633487219702,
+          1.0206045132620543
+        ]
+      },
+      "30": {
+        "overlap": 0.9964467005076143,
+        "normalized_radius_ratio_quantiles": [
+          0.9976721754598952,
+          0.9979794730174759,
+          1.0019906705377037,
+          1.0106671561983076,
+          1.0204697958249238
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.0,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 6.772489502641272e-05,
+        "changed_core_fraction": 0.005076142131979695
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 99,
+        "changed_pair_fraction": 0.0005869490902289102,
+        "changed_core_fraction": 0.006345177664974619
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 197,
+        "changed_pair_fraction": 0.0015576725856074924,
+        "changed_core_fraction": 0.005076142131979695
+      }
+    ]
+  },
+  {
+    "dataset": "Aggregation",
+    "radius": 0.5,
+    "n": 788,
+    "scale": 1.660603495113995,
+    "rank_correlation": 0.9989307594517093,
+    "normalized_distance_ratio_quantiles": [
+      0.9852711965323041,
+      0.9860507980797367,
+      1.0014058684372988,
+      1.047327248434217,
+      1.1834400217466425
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 1.7329887525008303e-14,
+    "frechet_iterations": 5,
+    "frechet_residual": 1.0291298986948832e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9742385786802031,
+        "normalized_radius_ratio_quantiles": [
+          0.9852712090976108,
+          0.9880519030341997,
+          1.0169069060629563,
+          1.074311023431364,
+          1.1381934236704847
+        ]
+      },
+      "30": {
+        "overlap": 0.9782148900169205,
+        "normalized_radius_ratio_quantiles": [
+          0.9852912822262037,
+          0.9907346607055187,
+          1.0195605215871022,
+          1.0697468158699774,
+          1.1343903267329516
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.0,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.00047084927018363124,
+        "changed_core_fraction": 0.01903553299492386
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 99,
+        "changed_pair_fraction": 0.004943917336928128,
+        "changed_core_fraction": 0.04187817258883249
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 197,
+        "changed_pair_fraction": 0.010636033514148054,
+        "changed_core_fraction": 0.01649746192893401
+      }
+    ]
+  },
+  {
+    "dataset": "Aggregation",
+    "radius": 0.8,
+    "n": 788,
+    "scale": 3.4151199612880228,
+    "rank_correlation": 0.9896648151253967,
+    "normalized_distance_ratio_quantiles": [
+      0.9581770544785873,
+      0.9605220132948297,
+      1.0102730320065922,
+      1.1768302828701929,
+      1.863088717154476
+    ],
+    "roundtrip_error": 3.3306690738754696e-16,
+    "lorentz_error": 2.3037127760971998e-14,
+    "frechet_iterations": 10,
+    "frechet_residual": 6.849420998558616e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9088832487309645,
+        "normalized_radius_ratio_quantiles": [
+          0.9581771083654128,
+          0.9839116438996466,
+          1.1013131915519259,
+          1.2896747148657803,
+          1.5397344847245544
+        ]
+      },
+      "30": {
+        "overlap": 0.9255499153976313,
+        "normalized_radius_ratio_quantiles": [
+          0.9589957833945268,
+          0.9943850682167992,
+          1.1083890484768957,
+          1.2840258481640971,
+          1.5660622959601098
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 9.674985003773244e-06,
+        "changed_core_fraction": 0.007614213197969543
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0018704971007294938,
+        "changed_core_fraction": 0.14086294416243655
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 99,
+        "changed_pair_fraction": 0.018682396042286133,
+        "changed_core_fraction": 0.14720812182741116
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 197,
+        "changed_pair_fraction": 0.0367133430943182,
+        "changed_core_fraction": 0.09390862944162437
+      }
+    ]
+  },
+  {
+    "dataset": "Compound",
+    "radius": 0.2,
+    "n": 399,
+    "scale": 0.5496974585650286,
+    "rank_correlation": 0.9999907419248539,
+    "normalized_distance_ratio_quantiles": [
+      0.9986376453974123,
+      0.9987065067466884,
+      1.0001194316739392,
+      1.004470345952075,
+      1.0201826396573397
+    ],
+    "roundtrip_error": 1.6653345369377348e-16,
+    "lorentz_error": 3.805809833945517e-14,
+    "frechet_iterations": 2,
+    "frechet_residual": 2.7390805047462587e-09,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9957393483709274,
+        "normalized_radius_ratio_quantiles": [
+          0.9986376514712612,
+          0.9987633489193972,
+          1.001138378576148,
+          1.0077356078877107,
+          1.0162198228417454
+        ]
+      },
+      "30": {
+        "overlap": 0.9979949874686718,
+        "normalized_radius_ratio_quantiles": [
+          0.9986416321531639,
+          0.9987884455863266,
+          1.0019062273533377,
+          1.0077006979555754,
+          1.011155689909524
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.0,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 1.2594299819901513e-05,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 50,
+        "changed_pair_fraction": 0.0006800921902746817,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 100,
+        "changed_pair_fraction": 0.0010579211848717272,
+        "changed_core_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": "Compound",
+    "radius": 0.5,
+    "n": 399,
+    "scale": 1.5010473385352958,
+    "rank_correlation": 0.999563464211235,
+    "normalized_distance_ratio_quantiles": [
+      0.9908963735239089,
+      0.9913653055089986,
+      1.0011713979388537,
+      1.032659444101468,
+      1.1538912812178839
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 2.2853247072518457e-14,
+    "frechet_iterations": 4,
+    "frechet_residual": 5.1768433735465964e-09,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9791979949874687,
+        "normalized_radius_ratio_quantiles": [
+          0.9908964190750186,
+          0.9923682354941118,
+          1.0127115201660197,
+          1.0512264793985382,
+          1.0860800323945354
+        ]
+      },
+      "30": {
+        "overlap": 0.9843776106934002,
+        "normalized_radius_ratio_quantiles": [
+          0.9909323840390414,
+          0.9951435943196978,
+          1.0172839141460943,
+          1.0482998612557268,
+          1.084054628330652
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.0,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0005289605924358636,
+        "changed_core_fraction": 0.005012531328320802
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 50,
+        "changed_pair_fraction": 0.004685079533003363,
+        "changed_core_fraction": 0.005012531328320802
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 100,
+        "changed_pair_fraction": 0.006939459200765733,
+        "changed_core_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": "Compound",
+    "radius": 0.8,
+    "n": 399,
+    "scale": 3.0619634223087955,
+    "rank_correlation": 0.9951484709380648,
+    "normalized_distance_ratio_quantiles": [
+      0.9715219675245736,
+      0.9730503134273086,
+      1.0063071088449491,
+      1.1271366098320954,
+      1.6988844251747668
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 2.1149748619109232e-14,
+    "frechet_iterations": 8,
+    "frechet_residual": 2.77819749007977e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9300751879699248,
+        "normalized_radius_ratio_quantiles": [
+          0.9715884932441747,
+          0.9824254428092167,
+          1.0676714641801293,
+          1.1847245432499924,
+          1.3415016841559417
+        ]
+      },
+      "30": {
+        "overlap": 0.9448621553884712,
+        "normalized_radius_ratio_quantiles": [
+          0.9724439383718417,
+          0.9983724724202554,
+          1.0755440673207954,
+          1.174921321116811,
+          1.2733231410089512
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.0,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0020024936713643406,
+        "changed_core_fraction": 0.03508771929824561
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 50,
+        "changed_pair_fraction": 0.01722900215362527,
+        "changed_core_fraction": 0.045112781954887216
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 100,
+        "changed_pair_fraction": 0.02399214115691238,
+        "changed_core_fraction": 0.02506265664160401
+      }
+    ]
+  },
+  {
+    "dataset": "Pathbased",
+    "radius": 0.2,
+    "n": 300,
+    "scale": 0.7518783012407401,
+    "rank_correlation": 0.9999689820330127,
+    "normalized_distance_ratio_quantiles": [
+      0.9974721945425992,
+      0.9975092736353123,
+      0.9989202261931763,
+      1.006537152173037,
+      1.0240560836781734
+    ],
+    "roundtrip_error": 1.6653345369377348e-16,
+    "lorentz_error": 1.434124086846511e-13,
+    "frechet_iterations": 2,
+    "frechet_residual": 2.6336846970321792e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9963333333333333,
+        "normalized_radius_ratio_quantiles": [
+          0.9974722614708813,
+          0.9978642630329018,
+          1.0012220824342144,
+          1.0194071218688365,
+          1.0228735778663018
+        ]
+      },
+      "30": {
+        "overlap": 0.9958888888888888,
+        "normalized_radius_ratio_quantiles": [
+          0.9974739685061987,
+          0.9976834121699286,
+          1.0009260079317919,
+          1.0095217401998358,
+          1.0210320862509872
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.0,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 4.459308807134894e-05,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 38,
+        "changed_pair_fraction": 0.000802675585284281,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 75,
+        "changed_pair_fraction": 0.0021627647714604235,
+        "changed_core_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": "Pathbased",
+    "radius": 0.5,
+    "n": 300,
+    "scale": 2.0613435438308017,
+    "rank_correlation": 0.998588446323795,
+    "normalized_distance_ratio_quantiles": [
+      0.985800280725143,
+      0.9860509217353454,
+      0.9955494775168798,
+      1.0484988318077135,
+      1.1877833336327854
+    ],
+    "roundtrip_error": 1.6653345369377348e-16,
+    "lorentz_error": 2.1073424255447017e-08,
+    "frechet_iterations": 5,
+    "frechet_residual": 3.578224363267031e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9776666666666667,
+        "normalized_radius_ratio_quantiles": [
+          0.9858098782627027,
+          0.9902683080276914,
+          1.017346341926579,
+          1.1455023104591158,
+          1.1778591071304545
+        ]
+      },
+      "30": {
+        "overlap": 0.9654444444444447,
+        "normalized_radius_ratio_quantiles": [
+          0.9858134284125323,
+          0.9895263869973813,
+          1.0178732131723547,
+          1.0562244058721628,
+          1.1088752289490063
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.0,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0005351170568561873,
+        "changed_core_fraction": 0.013333333333333334
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 38,
+        "changed_pair_fraction": 0.005730211817168339,
+        "changed_core_fraction": 0.01
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 75,
+        "changed_pair_fraction": 0.013846153846153847,
+        "changed_core_fraction": 0.01
+      }
+    ]
+  },
+  {
+    "dataset": "Pathbased",
+    "radius": 0.8,
+    "n": 300,
+    "scale": 4.241405594542031,
+    "rank_correlation": 0.9857126082898741,
+    "normalized_distance_ratio_quantiles": [
+      0.9582073673320843,
+      0.958993569450543,
+      0.989033717204271,
+      1.172285482684704,
+      1.861021887118234
+    ],
+    "roundtrip_error": 3.3306690738754696e-16,
+    "lorentz_error": 1.230161805754193e-13,
+    "frechet_iterations": 13,
+    "frechet_residual": 9.866111376623543e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9113333333333332,
+        "normalized_radius_ratio_quantiles": [
+          0.9582446300354911,
+          0.9837700570971658,
+          1.0897084379690727,
+          1.6073635632112229,
+          1.7256133547710268
+        ]
+      },
+      "30": {
+        "overlap": 0.8923333333333335,
+        "normalized_radius_ratio_quantiles": [
+          0.9582624060938647,
+          0.9842816568327459,
+          1.0753078659627873,
+          1.1901755916437042,
+          1.2750004127299104
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.0,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0018729096989966556,
+        "changed_core_fraction": 0.05
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 38,
+        "changed_pair_fraction": 0.021672240802675585,
+        "changed_core_fraction": 0.04666666666666667
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 75,
+        "changed_pair_fraction": 0.04396878483835005,
+        "changed_core_fraction": 0.06
+      }
+    ]
+  },
+  {
+    "dataset": "D31",
+    "radius": 0.2,
+    "n": 3100,
+    "scale": 0.6307558780990454,
+    "rank_correlation": 0.9999824015259943,
+    "normalized_distance_ratio_quantiles": [
+      0.9982123928871889,
+      0.9982917529690936,
+      1.000017553496148,
+      1.0063019656876429,
+      1.0252536309720708
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 3.1278213526164667e-13,
+    "frechet_iterations": 2,
+    "frechet_residual": 1.1701961534277802e-09,
+    "neighbors": {
+      "10": {
+        "overlap": 0.996967741935484,
+        "normalized_radius_ratio_quantiles": [
+          0.9982123929522655,
+          0.9983590671669516,
+          1.001542397099432,
+          1.0095747847342504,
+          1.0225183621664147
+        ]
+      },
+      "30": {
+        "overlap": 0.9965591397849461,
+        "normalized_radius_ratio_quantiles": [
+          0.998212399886064,
+          0.9983654209963767,
+          1.0014175497495552,
+          1.00908366887354,
+          1.0221360778864603
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 4.580041428556558e-06,
+        "changed_core_fraction": 0.0016129032258064516
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 7.640341837637531e-05,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 388,
+        "changed_pair_fraction": 0.0006264247572057584,
+        "changed_core_fraction": 0.00967741935483871
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 775,
+        "changed_pair_fraction": 0.0016525622209037254,
+        "changed_core_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": "D31",
+    "radius": 0.5,
+    "n": 3100,
+    "scale": 1.7264497563944299,
+    "rank_correlation": 0.9991698493096108,
+    "normalized_distance_ratio_quantiles": [
+      0.9881463825438763,
+      0.988679051459488,
+      1.0005505204979217,
+      1.0454225567873736,
+      1.1950459276855434
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 7.659671508175592e-14,
+    "frechet_iterations": 3,
+    "frechet_residual": 8.294441243833213e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9744516129032259,
+        "normalized_radius_ratio_quantiles": [
+          0.9881463830209789,
+          0.9899758212193386,
+          1.0154893357740247,
+          1.0684490142446126,
+          1.1617212728792512
+        ]
+      },
+      "30": {
+        "overlap": 0.9782043010752688,
+        "normalized_radius_ratio_quantiles": [
+          0.9881464342389339,
+          0.9913492668807625,
+          1.0168470182807878,
+          1.0603243449411415,
+          1.1642951536442592
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 2.9978452986915654e-05,
+        "changed_core_fraction": 0.00967741935483871
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0005535604617514495,
+        "changed_core_fraction": 0.0012903225806451613
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 388,
+        "changed_pair_fraction": 0.004523207278102197,
+        "changed_core_fraction": 0.04387096774193548
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 775,
+        "changed_pair_fraction": 0.011664324600027065,
+        "changed_core_fraction": 0.0006451612903225806
+      }
+    ]
+  },
+  {
+    "dataset": "D31",
+    "radius": 0.8,
+    "n": 3100,
+    "scale": 3.534333019227229,
+    "rank_correlation": 0.9908930123189844,
+    "normalized_distance_ratio_quantiles": [
+      0.9653787982876233,
+      0.9670439587714591,
+      1.0065749982074919,
+      1.1714256511978232,
+      1.9292754339232008
+    ],
+    "roundtrip_error": 2.498001805406602e-16,
+    "lorentz_error": 2.894065195824247e-13,
+    "frechet_iterations": 8,
+    "frechet_residual": 3.591683955100076e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9089677419354839,
+        "normalized_radius_ratio_quantiles": [
+          0.9653788070680802,
+          0.9810789989670997,
+          1.0840457204055705,
+          1.261803890441332,
+          1.7260537138116046
+        ]
+      },
+      "30": {
+        "overlap": 0.9241075268817205,
+        "normalized_radius_ratio_quantiles": [
+          0.9653790120310564,
+          0.9876345421809449,
+          1.0888112051937804,
+          1.2357490764245784,
+          1.7246788726221773
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.00011679105642819224,
+        "changed_core_fraction": 0.06096774193548387
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.002043323028240119,
+        "changed_core_fraction": 0.006129032258064516
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 388,
+        "changed_pair_fraction": 0.017494509154878265,
+        "changed_core_fraction": 0.17774193548387096
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 775,
+        "changed_pair_fraction": 0.042485505209797124,
+        "changed_core_fraction": 0.01096774193548387
+      }
+    ]
+  },
+  {
+    "dataset": "Asymmetric",
+    "radius": 0.2,
+    "n": 1000,
+    "scale": 0.6029706250569927,
+    "rank_correlation": 0.9999825235421428,
+    "normalized_distance_ratio_quantiles": [
+      0.9992528399295526,
+      0.9992926401247783,
+      1.0009587798401334,
+      1.0086082723314629,
+      1.0224472021079534
+    ],
+    "roundtrip_error": 1.1102230246251565e-16,
+    "lorentz_error": 2.670853989361621e-13,
+    "frechet_iterations": 2,
+    "frechet_residual": 1.1687835089398192e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9972000000000001,
+        "normalized_radius_ratio_quantiles": [
+          0.9992528432781759,
+          0.9993816219380507,
+          1.002447567897467,
+          1.0105401508587977,
+          1.0198777210889274
+        ]
+      },
+      "30": {
+        "overlap": 0.9967666666666667,
+        "normalized_radius_ratio_quantiles": [
+          0.9992528779555927,
+          0.9994688461629421,
+          1.0028346895194962,
+          1.0109848603129419,
+          1.0166400830897
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 2.2022022022022024e-05,
+        "changed_core_fraction": 0.006
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0002042042042042042,
+        "changed_core_fraction": 0.001
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 125,
+        "changed_pair_fraction": 0.0005025025025025025,
+        "changed_core_fraction": 0.001
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 250,
+        "changed_pair_fraction": 0.001887887887887888,
+        "changed_core_fraction": 0.004
+      }
+    ]
+  },
+  {
+    "dataset": "Asymmetric",
+    "radius": 0.5,
+    "n": 1000,
+    "scale": 1.6417255456913096,
+    "rank_correlation": 0.9991669319372125,
+    "normalized_distance_ratio_quantiles": [
+      0.9944019231431087,
+      0.994663807018734,
+      1.0063803638481676,
+      1.0615748991847804,
+      1.1715653263904433
+    ],
+    "roundtrip_error": 1.1102230246251565e-16,
+    "lorentz_error": 6.038138739006271e-14,
+    "frechet_iterations": 4,
+    "frechet_residual": 4.405087481977727e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9764,
+        "normalized_radius_ratio_quantiles": [
+          0.994401947941333,
+          0.9962790652241031,
+          1.0238485992028235,
+          1.073238557898166,
+          1.1435240401696156
+        ]
+      },
+      "30": {
+        "overlap": 0.9764333333333334,
+        "normalized_radius_ratio_quantiles": [
+          0.9944022035325552,
+          0.9994275933900099,
+          1.0284069686354342,
+          1.068603190730967,
+          1.1125596346054976
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 8.408408408408409e-05,
+        "changed_core_fraction": 0.016
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0013573573573573573,
+        "changed_core_fraction": 0.007
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 125,
+        "changed_pair_fraction": 0.004158158158158158,
+        "changed_core_fraction": 0.016
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 250,
+        "changed_pair_fraction": 0.012946946946946947,
+        "changed_core_fraction": 0.035
+      }
+    ]
+  },
+  {
+    "dataset": "Asymmetric",
+    "radius": 0.8,
+    "n": 1000,
+    "scale": 3.3338785013185075,
+    "rank_correlation": 0.9908691947061585,
+    "normalized_distance_ratio_quantiles": [
+      0.9793608490909174,
+      0.9801339499992919,
+      1.0212726419461977,
+      1.2240156296563678,
+      1.8206862925197964
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 9.446783633126898e-14,
+    "frechet_iterations": 11,
+    "frechet_residual": 4.372334690777991e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9068000000000002,
+        "normalized_radius_ratio_quantiles": [
+          0.9793611208734344,
+          0.9992489652391615,
+          1.1140198192151627,
+          1.272236424584517,
+          1.615977494703862
+        ]
+      },
+      "30": {
+        "overlap": 0.9161000000000001,
+        "normalized_radius_ratio_quantiles": [
+          0.97936198973481,
+          1.006149498466685,
+          1.1235730315686259,
+          1.2533956392989922,
+          1.473037790864819
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.00026026026026026023,
+        "changed_core_fraction": 0.082
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.004788788788788789,
+        "changed_core_fraction": 0.03
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 125,
+        "changed_pair_fraction": 0.017403403403403402,
+        "changed_core_fraction": 0.07
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 250,
+        "changed_pair_fraction": 0.040324324324324326,
+        "changed_core_fraction": 0.172
+      }
+    ]
+  },
+  {
+    "dataset": "Skewed",
+    "radius": 0.2,
+    "n": 1000,
+    "scale": 0.6142571887535665,
+    "rank_correlation": 0.9999959610745252,
+    "normalized_distance_ratio_quantiles": [
+      0.9994146806134937,
+      0.9994406683935994,
+      1.0002133294172877,
+      1.0039359697752595,
+      1.0265411144736305
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 1.8243132698936293e-13,
+    "frechet_iterations": 2,
+    "frechet_residual": 5.647638691606138e-09,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9976999999999999,
+        "normalized_radius_ratio_quantiles": [
+          0.9994147281199415,
+          0.9995528939282405,
+          1.0016260317868066,
+          1.006998362973979,
+          1.0201306789572067
+        ]
+      },
+      "30": {
+        "overlap": 0.9986000000000002,
+        "normalized_radius_ratio_quantiles": [
+          0.9994146927684112,
+          0.999573328044956,
+          1.001382511280127,
+          1.0055564851794725,
+          1.0201715995815608
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 2.002002002002002e-05,
+        "changed_core_fraction": 0.008
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 8.208208208208208e-05,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 125,
+        "changed_pair_fraction": 0.0007667667667667667,
+        "changed_core_fraction": 0.002
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 250,
+        "changed_pair_fraction": 0.0005705705705705706,
+        "changed_core_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": "Skewed",
+    "radius": 0.5,
+    "n": 1000,
+    "scale": 1.6704475480713117,
+    "rank_correlation": 0.999789096434595,
+    "normalized_distance_ratio_quantiles": [
+      0.9957586648285138,
+      0.995937880612408,
+      1.001353496464389,
+      1.028747250949082,
+      1.20401717573949
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 5.896194990584469e-14,
+    "frechet_iterations": 4,
+    "frechet_residual": 3.831819874746621e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9839000000000001,
+        "normalized_radius_ratio_quantiles": [
+          0.9957590122278435,
+          0.9972254436246601,
+          1.0136825855150857,
+          1.0508327857276996,
+          1.1384099979829643
+        ]
+      },
+      "30": {
+        "overlap": 0.9892666666666666,
+        "normalized_radius_ratio_quantiles": [
+          0.995758754106754,
+          0.9978258171693873,
+          1.0133995555846422,
+          1.040477819000469,
+          1.115436738953826
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 6.806806806806807e-05,
+        "changed_core_fraction": 0.016
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0005345345345345345,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 125,
+        "changed_pair_fraction": 0.005477477477477477,
+        "changed_core_fraction": 0.014
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 250,
+        "changed_pair_fraction": 0.00378978978978979,
+        "changed_core_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": "Skewed",
+    "radius": 0.8,
+    "n": 1000,
+    "scale": 3.368114917870458,
+    "rank_correlation": 0.9969267961625969,
+    "normalized_distance_ratio_quantiles": [
+      0.9877113226204344,
+      0.9883263424432145,
+      1.007276224287667,
+      1.1174728545076456,
+      1.950145198334976
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 9.970062969655302e-14,
+    "frechet_iterations": 10,
+    "frechet_residual": 4.176910102516782e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9380000000000002,
+        "normalized_radius_ratio_quantiles": [
+          0.9877126997351112,
+          0.9968307451824167,
+          1.06839262163837,
+          1.201064674570601,
+          1.559710922154317
+        ]
+      },
+      "30": {
+        "overlap": 0.9595000000000001,
+        "normalized_radius_ratio_quantiles": [
+          0.9877116819907737,
+          1.001375736480897,
+          1.0689592137300974,
+          1.15233353105093,
+          1.4902348116355848
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.0002622622622622623,
+        "changed_core_fraction": 0.054
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0022442442442442445,
+        "changed_core_fraction": 0.011
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 125,
+        "changed_pair_fraction": 0.01773773773773774,
+        "changed_core_fraction": 0.054
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 250,
+        "changed_pair_fraction": 0.014692692692692693,
+        "changed_core_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "dataset": "Cure-t1",
+    "radius": 0.2,
+    "n": 2000,
+    "scale": 0.6298002983572376,
+    "rank_correlation": 0.9999704828937317,
+    "normalized_distance_ratio_quantiles": [
+      0.9980258560566795,
+      0.9980921115630892,
+      1.0002184247733323,
+      1.0086413360646127,
+      1.0252174155013731
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 5.884887087186097e-12,
+    "frechet_iterations": 2,
+    "frechet_residual": 1.5663505367627177e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9955499999999999,
+        "normalized_radius_ratio_quantiles": [
+          0.9980258669621221,
+          0.9981742925199222,
+          1.0025023147314092,
+          1.012649757653556,
+          1.0232795928726344
+        ]
+      },
+      "30": {
+        "overlap": 0.9955499999999999,
+        "normalized_radius_ratio_quantiles": [
+          0.9980258560566903,
+          0.9982279589135562,
+          1.0027292590616863,
+          1.0125397007494459,
+          1.023565511339553
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 9.504752376188094e-06,
+        "changed_core_fraction": 0.001
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.00016208104052026014,
+        "changed_core_fraction": 0.0
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 250,
+        "changed_pair_fraction": 0.0006293146573286643,
+        "changed_core_fraction": 0.009
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 500,
+        "changed_pair_fraction": 0.0023721860930465233,
+        "changed_core_fraction": 0.0025
+      }
+    ]
+  },
+  {
+    "dataset": "Cure-t1",
+    "radius": 0.5,
+    "n": 2000,
+    "scale": 1.7249057674633235,
+    "rank_correlation": 0.9986494896478966,
+    "normalized_distance_ratio_quantiles": [
+      0.9873479884383358,
+      0.9877928384738494,
+      1.0020355217799173,
+      1.061683328870925,
+      1.1952121461398189
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 6.432769356252976e-13,
+    "frechet_iterations": 5,
+    "frechet_residual": 1.0086982671850818e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9716000000000001,
+        "normalized_radius_ratio_quantiles": [
+          0.9873480691833428,
+          0.9894511433242271,
+          1.025576227501554,
+          1.0855100258553547,
+          1.169186557874098
+        ]
+      },
+      "30": {
+        "overlap": 0.9727833333333333,
+        "normalized_radius_ratio_quantiles": [
+          0.9873479884384218,
+          0.9913521006816994,
+          1.0282194691494955,
+          1.07679809738001,
+          1.1719811525498771
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 7.753876938469235e-05,
+        "changed_core_fraction": 0.016
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.00108104052026013,
+        "changed_core_fraction": 0.0015
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 250,
+        "changed_pair_fraction": 0.004509254627313657,
+        "changed_core_fraction": 0.0425
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 500,
+        "changed_pair_fraction": 0.016180590295147575,
+        "changed_core_fraction": 0.0255
+      }
+    ]
+  },
+  {
+    "dataset": "Cure-t1",
+    "radius": 0.8,
+    "n": 2000,
+    "scale": 3.5330605007797566,
+    "rank_correlation": 0.9865210492288109,
+    "normalized_distance_ratio_quantiles": [
+      0.9640832583395768,
+      0.965489903152863,
+      1.0098338509044502,
+      1.225174912862315,
+      1.932160830883049
+    ],
+    "roundtrip_error": 2.7755575615628914e-16,
+    "lorentz_error": 1.1845296878781886e-12,
+    "frechet_iterations": 11,
+    "frechet_residual": 4.468118503702611e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.8994500000000002,
+        "normalized_radius_ratio_quantiles": [
+          0.96408393975226,
+          0.9826142620999657,
+          1.1255211850023217,
+          1.329764939293298,
+          1.7316321927481029
+        ]
+      },
+      "30": {
+        "overlap": 0.9038500000000002,
+        "normalized_radius_ratio_quantiles": [
+          0.9640832583400083,
+          0.987276027358177,
+          1.1352333091408786,
+          1.2907335357286864,
+          1.5195463709592436
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.0002666333166583292,
+        "changed_core_fraction": 0.066
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0039564782391195595,
+        "changed_core_fraction": 0.0115
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 250,
+        "changed_pair_fraction": 0.015501750875437719,
+        "changed_core_fraction": 0.1655
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 500,
+        "changed_pair_fraction": 0.05167083541770885,
+        "changed_core_fraction": 0.0735
+      }
+    ]
+  },
+  {
+    "dataset": "Cure-t2",
+    "radius": 0.2,
+    "n": 4200,
+    "scale": 0.5538182459231297,
+    "rank_correlation": 0.9999839689921476,
+    "normalized_distance_ratio_quantiles": [
+      0.99842185553817,
+      0.9984854771915279,
+      1.0003743385222412,
+      1.0061564396462628,
+      1.0227377105348459
+    ],
+    "roundtrip_error": 2.220446049250313e-16,
+    "lorentz_error": 8.015350536072496e-13,
+    "frechet_iterations": 2,
+    "frechet_residual": 2.0564566209301695e-09,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9965238095238095,
+        "normalized_radius_ratio_quantiles": [
+          0.9984218559879757,
+          0.9985599316675349,
+          1.0023926344289222,
+          1.0093563295176247,
+          1.0190111909253206
+        ]
+      },
+      "30": {
+        "overlap": 0.9968015873015873,
+        "normalized_radius_ratio_quantiles": [
+          0.9984218598867399,
+          0.9985695137668807,
+          1.0025346148508136,
+          1.009201764127061,
+          1.0189664155364284
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 1.0206511754499371e-05,
+        "changed_core_fraction": 0.0014285714285714286
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.00010807561891153222,
+        "changed_core_fraction": 0.0002380952380952381
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 525,
+        "changed_pair_fraction": 0.0005326665078987061,
+        "changed_core_fraction": 0.005238095238095238
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 1050,
+        "changed_pair_fraction": 0.0016805588632214019,
+        "changed_core_fraction": 0.0002380952380952381
+      }
+    ]
+  },
+  {
+    "dataset": "Cure-t2",
+    "radius": 0.5,
+    "n": 4200,
+    "scale": 1.5140928746096005,
+    "rank_correlation": 0.9992387384830513,
+    "normalized_distance_ratio_quantiles": [
+      0.9895090907945202,
+      0.9899408267124941,
+      1.0028709014063688,
+      1.044347521296779,
+      1.1748644938728332
+    ],
+    "roundtrip_error": 2.7755575615628914e-16,
+    "lorentz_error": 3.318144370378917e-13,
+    "frechet_iterations": 4,
+    "frechet_residual": 7.441475831617632e-09,
+    "neighbors": {
+      "10": {
+        "overlap": 0.976357142857143,
+        "normalized_radius_ratio_quantiles": [
+          0.9895090940688995,
+          0.9913257286883466,
+          1.0209185883515337,
+          1.0634605947858693,
+          1.145252204112553
+        ]
+      },
+      "30": {
+        "overlap": 0.9789444444444444,
+        "normalized_radius_ratio_quantiles": [
+          0.9895091224434,
+          0.9923853772975362,
+          1.0227001316897508,
+          1.0585839931516627,
+          1.1418363630940938
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 6.645573209040701e-05,
+        "changed_core_fraction": 0.014285714285714285
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0008025720409621338,
+        "changed_core_fraction": 0.0007142857142857143
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 525,
+        "changed_pair_fraction": 0.0037584912507513126,
+        "changed_core_fraction": 0.04119047619047619
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 1050,
+        "changed_pair_fraction": 0.011812449676226766,
+        "changed_core_fraction": 0.008809523809523809
+      }
+    ]
+  },
+  {
+    "dataset": "Cure-t2",
+    "radius": 0.8,
+    "n": 4200,
+    "scale": 3.093632470317849,
+    "rank_correlation": 0.9915941571215484,
+    "normalized_distance_ratio_quantiles": [
+      0.9685757297339712,
+      0.9699713751820191,
+      1.012236814668987,
+      1.1660987859047873,
+      1.8181376180874973
+    ],
+    "roundtrip_error": 2.7755575615628914e-16,
+    "lorentz_error": 5.268316165263354e-13,
+    "frechet_iterations": 8,
+    "frechet_residual": 2.2800450159631482e-08,
+    "neighbors": {
+      "10": {
+        "overlap": 0.9199761904761906,
+        "normalized_radius_ratio_quantiles": [
+          0.9685757425766438,
+          0.9832761816200557,
+          1.1012811131765508,
+          1.2357778213885215,
+          1.6212509038013254
+        ]
+      },
+      "30": {
+        "overlap": 0.9247857142857143,
+        "normalized_radius_ratio_quantiles": [
+          0.9685758537745144,
+          0.9911164262357213,
+          1.1070941436680886,
+          1.2189355717014236,
+          1.6219531565312957
+        ]
+      }
+    },
+    "threshold_changes": [
+      {
+        "eps": 0.008,
+        "min_samples": 2,
+        "changed_pair_fraction": 0.0002422345456401184,
+        "changed_core_fraction": 0.043095238095238096
+      },
+      {
+        "eps": 0.04,
+        "min_samples": 5,
+        "changed_pair_fraction": 0.0030284988489322853,
+        "changed_core_fraction": 0.005238095238095238
+      },
+      {
+        "eps": 0.2,
+        "min_samples": 525,
+        "changed_pair_fraction": 0.01341725354109255,
+        "changed_core_fraction": 0.19214285714285714
+      },
+      {
+        "eps": 0.5,
+        "min_samples": 1050,
+        "changed_pair_fraction": 0.04172422005239343,
+        "changed_core_fraction": 0.03785714285714286
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "status": "did_not_meet_predefined_similarity",
+  "margin": 0.02,
+  "mean_difference": -0.004729310125177938,
+  "ci90": [
+    -0.010401261526073223,
+    0.00013606426289725418
+  ],
+  "datasets_within_005": 6
+}

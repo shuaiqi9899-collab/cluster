@@ -1,0 +1,129 @@
+{
+  "git_base": "5ed268983cf4b6b9f5660b895b29d79b2ce1621a",
+  "source_sha256": {
+    "hyperbolic/README.md": "6d9888a7bfbd981b0ff831081d464b65317fa883beaf8f7bab03e6c47123cc17",
+    "hyperbolic/__init__.py": "17670ddbf9fe766f6ebd83308b724ce0cc980607e82934056db375953869f0f9",
+    "hyperbolic/analyze.py": "61ea36247901808b8c0654c4239122028a3341d0b7d8763b516680d5ba250a05",
+    "hyperbolic/boundary.py": "150cb67d6795a36c9276d99e76d7d9ba8f9b825e388f6fa45021334423c3ac23",
+    "hyperbolic/experiment.py": "cdecad1628a13ab264660932a81531bb4131e9c787479871ec5dc23a92e25353",
+    "hyperbolic/finish.py": "62d057ecbd4d91bc4f9d5aeae981b94de656ce91d2385fdc35fac2daadc5cb4b",
+    "hyperbolic/geometry.py": "73d81d8ff6c881a3b8c800250b4ea7652b5249447ebaed5a2a12b55b377ce2e1",
+    "hyperbolic/prepare.py": "6ffb8793575b6a0b810825eeecbafd864cf98f613d576cd2929e8b2bfe25f2c0",
+    "hyperbolic/replay.py": "e6e88b010329f900e760bde0a02ac835a7a03a7ddea02dc60ad6ef4d7e058256",
+    "hyperbolic/requirements-lock.txt": "32daa8f5803e43267c35e20a9c11fded3e5cbf76732a2ab01e7e7c0d731f2694",
+    "hyperbolic/setup.sh": "56a6823917e17c420e48bf94b00fad855812d93fea45bd4e6baff96b857f2bd7",
+    "hyperbolic/test_geometry.py": "dfba99698c5c315398f7f1ab51f9b27205579a8040cd201a1a4dd33574ae54b0",
+    "hyperbolic/verify.py": "a138bfd58cd115c39aef44142de10a456787fb0f900b9f14924082702950fa0b"
+  },
+  "report_files": {
+    "actual_fit_curves.png": {
+      "sha256": "e66a8c6939ed17be46d168067806b161f980f570b606080579e095aa097d580e",
+      "bytes": 239703
+    },
+    "artifact_checks.json": {
+      "sha256": "fccbf6d636c6d0a4fdc704eff247462076d2d4085b81ef70965b8f3b9a8d4c95",
+      "bytes": 120
+    },
+    "cluster_maps_seed0.png": {
+      "sha256": "fee91f3767c1bc02904e5d1ff5bbcd616dc2bca65a7ad8f1dd3eb4b1a4bd0731",
+      "bytes": 1356182
+    },
+    "curve_similarity.json": {
+      "sha256": "ac9074e1b042311d6acaaf67e5f941f56295c929b756c8c57adc42c5ffb73cfc",
+      "bytes": 1762
+    },
+    "environment.json": {
+      "sha256": "8b246de5722ed79242a1150fd94191f8b20de78a6e425a22ca5250b037d1bbb5",
+      "bytes": 491
+    },
+    "equivalence.json": {
+      "sha256": "8c26cf09e107ee0763f875bc37396ef6c418652a079217e37ecaa73aec54dd04",
+      "bytes": 258
+    },
+    "fig6_E.pdf": {
+      "sha256": "f560e951925f5889afbcab5facc06e450d281a6122cded1e4e6e6b1d27ef1d85",
+      "bytes": 40649
+    },
+    "fig6_E.png": {
+      "sha256": "bb442c97b343f931a83f7ed350f858d32281bf398399df0f9aaf9438b70fe577",
+      "bytes": 486602
+    },
+    "fig6_H.pdf": {
+      "sha256": "3d0bc9a62b0f6af38a6cf18716f5a818bef18df2e26cc37c33f6f63e15241d52",
+      "bytes": 40284
+    },
+    "fig6_H.png": {
+      "sha256": "78277dd19fe3a4159e249b5d4abe44c669dd755f9505657b84b06e1b033ebb97",
+      "bytes": 476823
+    },
+    "formal_protocol.json": {
+      "sha256": "3a6835b8b0e401e8ae50be17a0d96963a9128bca96cf18146ba8fb6618e64436",
+      "bytes": 99475
+    },
+    "geometry.json": {
+      "sha256": "0546106ea69d275f100894e98cb9c8124aedb574dfec8d9e50d1a3d1c3a2bd9c",
+      "bytes": 41677
+    },
+    "learning_and_regions.png": {
+      "sha256": "94c344b652cc8b45e3a8d122526ef7745cef76ed4378247b7a2ed69c98a164f9",
+      "bytes": 132122
+    },
+    "learning_audit.json": {
+      "sha256": "fa79f5c0862ab187f75f165039a527b3c3c5887fad028fa91af46058e7f9d007",
+      "bytes": 488966
+    },
+    "legacy_regression.json": {
+      "sha256": "55538cb0e48455d22da9b0f621cf266ac49ec7a73d5120a01b8f02bb2bf7121b",
+      "bytes": 903
+    },
+    "mapping_sensitivity.png": {
+      "sha256": "33b74157ed36f48d54d73ccfb20ecf81d5753d2a9038c6e65d3f27b0e5197bdd",
+      "bytes": 195298
+    },
+    "paired_comparisons.json": {
+      "sha256": "5b099464123b9e4389f3919cc760fef20974f9866c7db1e923aad8ea290b53d1",
+      "bytes": 56360
+    },
+    "partition_stages.png": {
+      "sha256": "1733fa949de48df0f25dfec689ae5bf6d04c02e607a78c119ee6d332334f8853",
+      "bytes": 157020
+    },
+    "provenance.json": {
+      "sha256": "1313dd962a157347fbc727cfde93587da48d8d3bc2e034454c724952e0659ab2",
+      "bytes": 203
+    },
+    "replay_summary.json": {
+      "sha256": "415539a50ab2ad8750a8d44bdad4b5a5600a9beaaf6935f354a49bf9d6ffb131",
+      "bytes": 194093
+    },
+    "space_difference.pdf": {
+      "sha256": "b883a54f990ccd34625d7a9cf3ad53ea19da07325812cd117133bd82a1197f09",
+      "bytes": 32815
+    },
+    "space_difference.png": {
+      "sha256": "d4060aef60673a80850040580fbd706e5f5244a2f89d2b5e4d5fd3a3e0a95433",
+      "bytes": 471685
+    },
+    "status.json": {
+      "sha256": "7404f45b0c088302e670105593d60d7f3aff5cdcf3e14d20372d2b3c8a4e7451",
+      "bytes": 163
+    },
+    "structural_diagnostics.json": {
+      "sha256": "16300a768267e7102c74f436f0725a062f1e229e95b9af1d696a328bbce007e4",
+      "bytes": 400476
+    },
+    "summary.csv": {
+      "sha256": "47c6acbedde16d500a189feaf185fa61a09e576b37a7efaff357f217db1bcd3c",
+      "bytes": 90875
+    },
+    "unit_tests.txt": {
+      "sha256": "7cc264d01b984bd6807f3e534ca416997d5f393f5c406197788678429bd43da7",
+      "bytes": 684
+    },
+    "报告.md": {
+      "sha256": "73ed63bda5541706cfd484a6dd4dd416609880b35cd8b2768644aa571b07fbbc",
+      "bytes": 6938
+    }
+  },
+  "large_artifacts": "Original per-case candidates, predictions, weights and metric matrices remain in results/hyperbolic; excluded from this small report bundle."
+}

@@ -1,0 +1,2 @@
+# Overlay on hyperbolic/requirements-lock.txt; private hierarchy API is pinned.
+hdbscan==0.8.40

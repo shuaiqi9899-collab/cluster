@@ -1,0 +1,371 @@
+{
+  "status": "passed",
+  "groups": [
+    {
+      "dataset": "Aggregation",
+      "space": "E",
+      "unique_subsets": 5,
+      "build_seconds": {
+        "single": 0.006311806020676158,
+        "complete": 0.01177835998532828,
+        "average": 0.008200400989153422,
+        "ward": 0.010065562004456297
+      }
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H",
+      "unique_subsets": 5,
+      "build_seconds": {
+        "single": 0.007055452995700762,
+        "complete": 0.00958694399741944,
+        "average": 0.00861119401815813,
+        "ward": 2.0466036940197228
+      }
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-weak",
+      "unique_subsets": 5,
+      "build_seconds": {
+        "single": 0.00681679998524487,
+        "complete": 0.008117516015772708,
+        "average": 0.00979157599795144,
+        "ward": 2.1546716980083147
+      }
+    },
+    {
+      "dataset": "Compound",
+      "space": "E",
+      "unique_subsets": 4,
+      "build_seconds": {
+        "single": 0.0016432230186183006,
+        "complete": 0.002743061995715834,
+        "average": 0.0024339530064025894,
+        "ward": 0.0033598870068090037
+      }
+    },
+    {
+      "dataset": "Compound",
+      "space": "H",
+      "unique_subsets": 4,
+      "build_seconds": {
+        "single": 0.001701410990790464,
+        "complete": 0.0028520769847091287,
+        "average": 0.002673745999345556,
+        "ward": 0.7297385690180818
+      }
+    },
+    {
+      "dataset": "Compound",
+      "space": "H-weak",
+      "unique_subsets": 4,
+      "build_seconds": {
+        "single": 0.0020971570193069056,
+        "complete": 0.002866879993234761,
+        "average": 0.0027265129901934415,
+        "ward": 0.7814299460151233
+      }
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-strong",
+      "unique_subsets": 5,
+      "build_seconds": {
+        "single": 0.005148914031451568,
+        "complete": 0.008629785006633028,
+        "average": 0.00828314600221347,
+        "ward": 2.215889300001436
+      }
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "E",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.0019078460027230904,
+        "complete": 0.002842276997398585,
+        "average": 0.0028288670000620186,
+        "ward": 0.0032076650095405057
+      }
+    },
+    {
+      "dataset": "Compound",
+      "space": "H-strong",
+      "unique_subsets": 5,
+      "build_seconds": {
+        "single": 0.0022376260021701455,
+        "complete": 0.003051485982723534,
+        "average": 0.0028824559994973242,
+        "ward": 1.0443903440027498
+      }
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.0018299529911018908,
+        "complete": 0.0037751710187876597,
+        "average": 0.002952127018943429,
+        "ward": 0.7581895899784286
+      }
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H-weak",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.0014787899854127318,
+        "complete": 0.0023066950088832527,
+        "average": 0.00229691898857709,
+        "ward": 0.47432201300398447
+      }
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H-strong",
+      "unique_subsets": 4,
+      "build_seconds": {
+        "single": 0.0013957749906694517,
+        "complete": 0.0019323680025991052,
+        "average": 0.0022574280010303482,
+        "ward": 0.6069229089916917
+      }
+    },
+    {
+      "dataset": "D31",
+      "space": "E",
+      "unique_subsets": 6,
+      "build_seconds": {
+        "single": 0.07993127901863772,
+        "complete": 0.14977515499049332,
+        "average": 0.150299658998847,
+        "ward": 0.160370771001908
+      }
+    },
+    {
+      "dataset": "D31",
+      "space": "H-weak",
+      "unique_subsets": 6,
+      "build_seconds": {
+        "single": 0.09119237500999589,
+        "complete": 0.20629518902569544,
+        "average": 0.2212953280104557,
+        "ward": 31.42271127400454
+      }
+    },
+    {
+      "dataset": "D31",
+      "space": "H",
+      "unique_subsets": 9,
+      "build_seconds": {
+        "single": 0.12613270599103998,
+        "complete": 0.30590827399282716,
+        "average": 0.4266617990215309,
+        "ward": 39.60455701497267
+      }
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "E",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.009288333996664733,
+        "complete": 0.017313261007075198,
+        "average": 0.018091550999088213,
+        "ward": 0.020458321014302783
+      }
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H",
+      "unique_subsets": 5,
+      "build_seconds": {
+        "single": 0.013054709997959435,
+        "complete": 0.024078901013126597,
+        "average": 0.02474232298845891,
+        "ward": 6.373697136019473
+      }
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H-weak",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.012856956003815867,
+        "complete": 0.019590284005971625,
+        "average": 0.018985693008289672,
+        "ward": 4.993346706993179
+      }
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H-strong",
+      "unique_subsets": 4,
+      "build_seconds": {
+        "single": 0.00999484299973119,
+        "complete": 0.01624675797938835,
+        "average": 0.01752310800657142,
+        "ward": 4.3995116829901235
+      }
+    },
+    {
+      "dataset": "Skewed",
+      "space": "E",
+      "unique_subsets": 4,
+      "build_seconds": {
+        "single": 0.010411434006527998,
+        "complete": 0.020017212023958564,
+        "average": 0.021182990007218905,
+        "ward": 0.024073759006569162
+      }
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H",
+      "unique_subsets": 4,
+      "build_seconds": {
+        "single": 0.00959912700636778,
+        "complete": 0.0169900350010721,
+        "average": 0.017654829993261956,
+        "ward": 3.4877230359852547
+      }
+    },
+    {
+      "dataset": "D31",
+      "space": "H-strong",
+      "unique_subsets": 6,
+      "build_seconds": {
+        "single": 0.0674322689883411,
+        "complete": 0.18641983999987133,
+        "average": 0.13144726598693524,
+        "ward": 27.97702654301247
+      }
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H-weak",
+      "unique_subsets": 4,
+      "build_seconds": {
+        "single": 0.007498415987356566,
+        "complete": 0.012274301989236847,
+        "average": 0.013087335988529958,
+        "ward": 3.444481585000176
+      }
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "E",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.02722702499886509,
+        "complete": 0.07355420300154947,
+        "average": 0.0556386200041743,
+        "ward": 0.06433691299753264
+      }
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H-strong",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.018399071996100247,
+        "complete": 0.01718325099500362,
+        "average": 0.01751845500257332,
+        "ward": 3.9311472380068153
+      }
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.044655261997831985,
+        "complete": 0.06053145800251514,
+        "average": 0.06648300800588913,
+        "ward": 12.42066292600066
+      }
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H-weak",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.038502805022289976,
+        "complete": 0.05919647600967437,
+        "average": 0.06720106498687528,
+        "ward": 12.518014603003394
+      }
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "E",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.14193239601445384,
+        "complete": 0.2923153830051888,
+        "average": 0.30722013900231104,
+        "ward": 0.33857109399104957
+      }
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H-strong",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.03486670799611602,
+        "complete": 0.057655685013742186,
+        "average": 0.06279252500098664,
+        "ward": 12.49992413399741
+      }
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.16957716101023834,
+        "complete": 0.3970564880000893,
+        "average": 0.3329714720021002,
+        "ward": 46.796030052995775
+      }
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H-weak",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.15088360199297313,
+        "complete": 0.3087355540046701,
+        "average": 0.3596688300021924,
+        "ward": 47.602322620979976
+      }
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H-strong",
+      "unique_subsets": 3,
+      "build_seconds": {
+        "single": 0.19135716199525632,
+        "complete": 0.37891783300437964,
+        "average": 0.38180553501297254,
+        "ward": 46.50333827800932
+      }
+    }
+  ],
+  "source": "/workspace/cluster/results/hyperbolic",
+  "linkages": [
+    "single",
+    "complete",
+    "average",
+    "ward"
+  ],
+  "ward": "Native Fréchet-SSE, Newton residual <=1e-9; conservative numerical upper ordering",
+  "source_hashes": {
+    "ac_joint/trees.py": "868da748689c7a1347c40d5b6dc47f0e4abbe81ce7d967e42afe4bd6914a4f7d",
+    "ac_joint/prepare.py": "b062c2e5debc3c76910dda5cd806cd7d6ce72a9d1175d52f507a6de91202d4f1",
+    "ac_joint/test_trees.py": "f2c1f10017f94758dbe17408b7a780209d6a3475eee4123c7d8a8379242699ff",
+    "ac_joint/__init__.py": "7470f17d1200eb649643f4fee6463bbffc7971437053299110f085dd9486e742"
+  }
+}

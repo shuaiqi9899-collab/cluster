@@ -1,0 +1,12 @@
+{
+  "expected": 2640,
+  "passed": 2640,
+  "failed": 0,
+  "counts": {
+    "E": 880,
+    "H": 880,
+    "H-fixed-E": 240,
+    "H-weak": 320,
+    "H-strong": 320
+  }
+}

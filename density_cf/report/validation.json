@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "verified_cases": 2800,
+  "backend_scope": [
+    "HDBSCAN"
+  ],
+  "independent_support_reward_checks": 518719,
+  "unchanged_old_source_files": 30,
+  "training_core_invocations_verified": 9,
+  "errors": []
+}

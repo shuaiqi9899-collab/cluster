@@ -1,0 +1,12 @@
+test_exact_control_boundary (hyperbolic.test_geometry.GeometryTests) ... ok
+test_frozen_inputs_match_original_loader (hyperbolic.test_geometry.GeometryTests) ... ok
+test_independent_mean_optimum (hyperbolic.test_geometry.GeometryTests) ... ok
+test_low_support_reward_and_state (hyperbolic.test_geometry.GeometryTests) ... ok
+test_mean_equivariance_under_ball_translation (hyperbolic.test_geometry.GeometryTests) ... ok
+test_no_cross_region_label_collision (hyperbolic.test_geometry.GeometryTests) ... ok
+test_roundtrip_and_invalid_inputs (hyperbolic.test_geometry.GeometryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.268s
+
+OK

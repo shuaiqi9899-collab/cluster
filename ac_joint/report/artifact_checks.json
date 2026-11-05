@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "verified_cases": 2800,
+  "independent_reward_checks": 68645,
+  "independent_cut_checks": 83697,
+  "support_sweep_comparisons": 3480,
+  "missing": [],
+  "unexpected": []
+}

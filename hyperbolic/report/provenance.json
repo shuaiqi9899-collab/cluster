@@ -1,0 +1,9 @@
+{
+  "git_base": "5ed268983cf4b6b9f5660b895b29d79b2ce1621a",
+  "bundle_files_checked": 55,
+  "bundle_mismatches": [
+    ".gitignore",
+    "reference/summary.csv"
+  ],
+  "author_source_hashes_passed": 35
+}

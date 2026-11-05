@@ -1,0 +1,17 @@
+test_closed_cuts_match_reference (ac_joint.test_trees.TreeTests) ... ok
+test_duplicate_points_and_singleton (ac_joint.test_trees.TreeTests) ... ok
+test_hyperbolic_mean_independent_optimizer (ac_joint.test_trees.TreeTests) ... ok
+test_lazy_ward_matches_exhaustive_native_sse (ac_joint.test_trees.TreeTests) ... ok
+test_all_baseline_budgets_include_four_common_probes (ac_joint.test_search.SearchTests) ... /workspace/cluster/.venv/lib/python3.10/site-packages/hyperopt/atpe.py:19: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/workspace/cluster/.venv/lib/python3.10/site-packages/pkg_resources/__init__.py:2871: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+ok
+test_vectorized_attention_outputs_and_gradients (ac_joint.test_search.SearchTests) ... ok
+test_support_plateau_scan_matches_all_height_cuts (ac_joint.test_sweep.SweepTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.283s
+
+OK

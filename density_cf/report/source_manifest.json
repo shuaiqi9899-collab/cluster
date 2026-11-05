@@ -1,0 +1,108 @@
+{
+  "source_sha256": {
+    "density_cf/README.md": "30e7a9bc698bcc6f39c50a6fb5997b3f161651e3b40159ed131ca3757d0518b0",
+    "density_cf/__init__.py": "db646b65bd339707138acc88b8403a7233a9c965dda0e64001271ae31f6ae94a",
+    "density_cf/analyze.py": "19c3cdf04cb1034edd9f65e51b9b264448d8dc33384db9b3ef407865df123328",
+    "density_cf/audit.py": "2d595ed752c20cadcbc29c2a32fbcaadd17154deee18949b15dd3b9562d3e5f8",
+    "density_cf/birch.py": "a5f43a3cfe84e5a3f83c62de447e73131cd0a996aaafc10f4b658819501c800e",
+    "density_cf/complete.py": "3354e4cd92c44baa82cf803f12ddadfea67bc8b4a9b363831c799e50d3e64cf9",
+    "density_cf/context.py": "04dd09e563b67f946d4b22e7b30e72d6f95171b8f877d24cfdab1dee29fc53b9",
+    "density_cf/experiment.py": "0c18ea80d851c59a86ec718bcdd4e27cbb7eb427865a437b13a1d0781d9ee9c2",
+    "density_cf/hdb.py": "174ad69074e654fa27a1e7f0abcd80dee6f8f93b0a0841097ddf2a6df68ce937",
+    "density_cf/prepare.py": "45beb065ea35ecf163ffce287e2c4d80e495b74dd59e36712b09fad2f12e59b4",
+    "density_cf/requirements.txt": "fa7a4a5153b29eb7957e6a1f95f7018ee1da4b859b773da7ec6f98aa544cd104",
+    "density_cf/test_backends.py": "ccd3a5d187c26b788ca9356f36f2cb54c5e0409512d63a2d1c3d454910a8b3ef",
+    "density_cf/verify.py": "567e130ce95ea38b730c88ab9a887e637a2a566dc2f99f2f6557b578ea4d0d09",
+    "density_cf/lifecycle.py": "ffcebf2ad017f3b4aeb6bc0edbfadc14b3cbb513af81756fac5c9cde6be702aa",
+    "density_cf/_frozen_experiment_v1.py": "36e81e07ff15d55f0651ec484ce836d1a4ca95ed7fd17845f9798b691ce60776"
+  },
+  "report_files": {
+    "retirement.json": {
+      "sha256": "315c72507d51fe009f73bdca85d9ab5636b8a57313845056f2fbd07f05bd65cf",
+      "bytes": 467
+    },
+    "readiness.json": {
+      "sha256": "2652d5fc653f585c119d21e47cb3b57e553d0c171279368fb0d691f3ae50c143",
+      "bytes": 1098
+    },
+    "status.json": {
+      "sha256": "97618a242668225a1490a31a21fc080c93086fb522a3396e67c684b836c71e2b",
+      "bytes": 202
+    },
+    "backend_audit.json": {
+      "sha256": "7c682a2aae210db863825c57f171220816878208b9021b087ea75514c16634fd",
+      "bytes": 236
+    },
+    "validation.json": {
+      "sha256": "b5d4191b976d1561c3d25a57cd4c94133d38979cf73c8b020001e51abb3f1448",
+      "bytes": 232
+    },
+    "报告.md": {
+      "sha256": "c8d3dd490196deedcad40f0fc9284021030e2fda1ba5e38a12b15543f764eee0",
+      "bytes": 6798
+    },
+    "HDBSCAN/paired_comparisons.json": {
+      "sha256": "01fca67bdad713bebf0703c8d66e1ec108dd64f88387f6d9a920a2101414b502",
+      "bytes": 45877
+    },
+    "HDBSCAN/heldout_HDBSCAN_E.pdf": {
+      "sha256": "75a847ee10750bfe689e34d6c3fef6bf854c6d9f169901366898371c6f2df896",
+      "bytes": 31019
+    },
+    "HDBSCAN/fig6_HDBSCAN_H.pdf": {
+      "sha256": "4e13d28a839bb2ecd809c6246b199296c487dd6360dba8e05ba0ffd0037cec96",
+      "bytes": 29829
+    },
+    "HDBSCAN/equivalence.json": {
+      "sha256": "d6a8e72b74be272d2ce198f6b35e0a29acb7f579273b62b6128a9e1c381df0fe",
+      "bytes": 223
+    },
+    "HDBSCAN/summary.csv": {
+      "sha256": "bf8c9ea9b946c1497c44a2158c57db19798db10d788b0d54453bdff577c94358",
+      "bytes": 150022
+    },
+    "HDBSCAN/fig6_HDBSCAN_E.png": {
+      "sha256": "13fe3defd1afdfa104c8bb856f2960eb847a1c48b9bb1c39dd767048f1ec4e1d",
+      "bytes": 162612
+    },
+    "HDBSCAN/heldout_HDBSCAN_H.pdf": {
+      "sha256": "f844da4526e7668c0282987cb996ec6138841e05a434acaaeafcddfcd18e67ea",
+      "bytes": 30866
+    },
+    "HDBSCAN/heldout_HDBSCAN_H.png": {
+      "sha256": "53891aee0817d8d6d741ddb2831b25ee0c8ff836f36060484e755af5251b1227",
+      "bytes": 178618
+    },
+    "HDBSCAN/heldout_HDBSCAN_E.png": {
+      "sha256": "e54e7d5a899a6410f3cf5f46c71d7ac5eb8fcb19ad6bd146a01d2140d51d2e60",
+      "bytes": 173340
+    },
+    "HDBSCAN/status.json": {
+      "sha256": "7fac76c69816f9a32cce94a00752cae6b747749b420ede3821836b9f93c61b93",
+      "bytes": 163
+    },
+    "HDBSCAN/fig6_HDBSCAN_H.png": {
+      "sha256": "6611d74e0c837bde53a79694a596355b91dbd080bcffd842f46083015c8aefa0",
+      "bytes": 167019
+    },
+    "HDBSCAN/fig6_HDBSCAN_E.pdf": {
+      "sha256": "548aca9cd6bc8bcde0a286c8aa4b55622dd4808ddccd7cf17b5945c81692a976",
+      "bytes": 29841
+    }
+  },
+  "results_root": "/workspace/cluster/results/density_cf",
+  "status": {
+    "HDBSCAN": {
+      "expected": 2800,
+      "passed": 2800,
+      "failed": 0,
+      "counts": {
+        "E": 960,
+        "H": 960,
+        "H-fixed-E": 240,
+        "H-weak": 320,
+        "H-strong": 320
+      }
+    }
+  }
+}

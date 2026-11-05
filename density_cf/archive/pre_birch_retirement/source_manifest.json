@@ -1,0 +1,162 @@
+{
+  "source_sha256": {
+    "density_cf/audit.py": "e5d78b00deb31c818d776709b608514530dc6169e958180547ba55b75c82c9bf",
+    "density_cf/README.md": "69a7cdd27d4f003f676036b2643e93f152077338f3d1c413a5d946c23efb0461",
+    "density_cf/analyze.py": "500556f1048b213ce0e844127fc92b93e230af6e75d3673cdc3ac2eaa9e24e65",
+    "density_cf/test_backends.py": "ccd3a5d187c26b788ca9356f36f2cb54c5e0409512d63a2d1c3d454910a8b3ef",
+    "density_cf/requirements.txt": "fa7a4a5153b29eb7957e6a1f95f7018ee1da4b859b773da7ec6f98aa544cd104",
+    "density_cf/context.py": "04dd09e563b67f946d4b22e7b30e72d6f95171b8f877d24cfdab1dee29fc53b9",
+    "density_cf/hdb.py": "174ad69074e654fa27a1e7f0abcd80dee6f8f93b0a0841097ddf2a6df68ce937",
+    "density_cf/prepare.py": "45beb065ea35ecf163ffce287e2c4d80e495b74dd59e36712b09fad2f12e59b4",
+    "density_cf/birch.py": "a5f43a3cfe84e5a3f83c62de447e73131cd0a996aaafc10f4b658819501c800e",
+    "density_cf/experiment.py": "36e81e07ff15d55f0651ec484ce836d1a4ca95ed7fd17845f9798b691ce60776",
+    "density_cf/complete.py": "f1ce16e8f77069b5c9bccd137d677a595773e2dda116d121737c343d1daacaab",
+    "density_cf/__init__.py": "db646b65bd339707138acc88b8403a7233a9c965dda0e64001271ae31f6ae94a",
+    "density_cf/verify.py": "d44c9aed5983fb1f426cd9fbb39938ce86ae678cf9a047ab1c86f40703c11c12"
+  },
+  "report_files": {
+    "报告.md": {
+      "sha256": "d509cbd739cc964e410c73aafe37b6dc96f52272f66ae2a5fe9468e82ba96df1",
+      "bytes": 11170
+    },
+    "validation.json": {
+      "sha256": "5b6f32c41789801b4fa868b5dcd2d90e660fafb3d45080a6699ccc787e4c3beb",
+      "bytes": 190
+    },
+    "readiness.json": {
+      "sha256": "97b265240c5ce190db9fcd4b1dace710ac371c1b0898f0aa2b2012b4dbca5bfd",
+      "bytes": 1223
+    },
+    "status.json": {
+      "sha256": "925cdf89b7cbaa6312e981c12337bedac0718db7e5b635076125edf88b60f8a7",
+      "bytes": 383
+    },
+    "backend_audit.json": {
+      "sha256": "673cd6ec7041a977af0665e022ec761e3805bfbd9fb53791af99664490d75121",
+      "bytes": 205
+    },
+    "BIRCH/heldout_BIRCH_H.png": {
+      "sha256": "95cfdd839ac07cdc5e36e9c629e4cc108a4cd32956879c17f2829d3d0d5bc9ea",
+      "bytes": 243583
+    },
+    "BIRCH/fig6_BIRCH_H.pdf": {
+      "sha256": "993cb55991044154d0f3a7454a62b36ba9fa4f7da559118bb0101741aaee52cf",
+      "bytes": 31569
+    },
+    "BIRCH/fig6_BIRCH_E.pdf": {
+      "sha256": "9db21014047769f86b1146a1dd480085a6d6f2d278defac65de6bfb3c6622442",
+      "bytes": 31678
+    },
+    "BIRCH/heldout_BIRCH_E.png": {
+      "sha256": "ccc1435938e3ade70a5bd933e943828d7abf799859894826830d6c3854a13f6e",
+      "bytes": 244074
+    },
+    "BIRCH/fig6_BIRCH_H.png": {
+      "sha256": "8565dc03a2ef4187cfa23d127ad180d0d7beb6e0c25c2519c58d6eff5a376a83",
+      "bytes": 236550
+    },
+    "BIRCH/heldout_BIRCH_H.pdf": {
+      "sha256": "99b31a76e72d40fef7eed182266d41a8b5eb0f4666bff4b3ed72cb7a962cbd09",
+      "bytes": 31320
+    },
+    "BIRCH/fig6_BIRCH_E.png": {
+      "sha256": "2ef521c189fd9188ae3bd48458413fccea0d04c835e8349891dab401a0ef2670",
+      "bytes": 238115
+    },
+    "BIRCH/heldout_BIRCH_E.pdf": {
+      "sha256": "7b801d9d03ee1e36db8fd835f50006e0e6f894239175da62df4af51c6f11f3c0",
+      "bytes": 31232
+    },
+    "BIRCH/paired_comparisons.json": {
+      "sha256": "7206724895c579272f26c730c7258c7d9adb69c5fd68f2d94ac1b0dd3a6577b6",
+      "bytes": 18088
+    },
+    "BIRCH/status.json": {
+      "sha256": "01fd5e0ee723b76f252f77e8adbaeca0e75950a98aead304c981be96929d4667",
+      "bytes": 154
+    },
+    "BIRCH/summary.csv": {
+      "sha256": "7ba6cdfaff3190c3a9ff19505ead8e428ff3329ef48e0cc722417f1e874106af",
+      "bytes": 57786
+    },
+    "BIRCH/equivalence.json": {
+      "sha256": "997882b31b9332c177445ffe13a1d3c9b59217617dd0e56806f922908c18812c",
+      "bytes": 67
+    },
+    "HDBSCAN/heldout_HDBSCAN_H.png": {
+      "sha256": "405930cbafd53cbba7566482fc2bd1a158dbbdd5261b914a19e54fa43ff187e6",
+      "bytes": 153181
+    },
+    "HDBSCAN/heldout_HDBSCAN_H.pdf": {
+      "sha256": "71a239a702a4653db7a97c474adf8741dcd4d26916aef4478c5509c693445924",
+      "bytes": 27062
+    },
+    "HDBSCAN/heldout_HDBSCAN_E.png": {
+      "sha256": "81723eb89c85ab3da4d2ea7101636e455fc09bf3fd4be66f9ddccd76aa6e703a",
+      "bytes": 157692
+    },
+    "HDBSCAN/fig6_HDBSCAN_E.png": {
+      "sha256": "634734e40e870cd6732770f2749ecb8affca02eab2ea4df9cbfcf6e327e9f674",
+      "bytes": 146175
+    },
+    "HDBSCAN/fig6_HDBSCAN_H.pdf": {
+      "sha256": "c4aee086078d2d3ed48b67d47c98b249ab6ce092468e15c72808b041ab19f929",
+      "bytes": 27351
+    },
+    "HDBSCAN/fig6_HDBSCAN_H.png": {
+      "sha256": "022bbe8f252866def755b7b49a4142369225e749222637410b04e3db798ff1bc",
+      "bytes": 142043
+    },
+    "HDBSCAN/heldout_HDBSCAN_E.pdf": {
+      "sha256": "b8478b82cde0949def19bc9b06713cf2540c9e18f757fc8fcfda1fe428963d1a",
+      "bytes": 28552
+    },
+    "HDBSCAN/fig6_HDBSCAN_E.pdf": {
+      "sha256": "0acc7666de405c314e6424a273c02f9bac2bd50ef83736c735423e7bb17ad918",
+      "bytes": 28133
+    },
+    "HDBSCAN/paired_comparisons.json": {
+      "sha256": "c13b433918483d058e554586af9e9aecd77776e7fa6fde2d73a4a055bbaa6d22",
+      "bytes": 17372
+    },
+    "HDBSCAN/status.json": {
+      "sha256": "70d807d09b940c8412dbad51b281fbb8f9123296d8aec6621aebfe928978c1ca",
+      "bytes": 155
+    },
+    "HDBSCAN/summary.csv": {
+      "sha256": "39ec5e5feb09656f8ddf79634f94c984bca9959884492d0731d6d54556bbbdd5",
+      "bytes": 68043
+    },
+    "HDBSCAN/equivalence.json": {
+      "sha256": "997882b31b9332c177445ffe13a1d3c9b59217617dd0e56806f922908c18812c",
+      "bytes": 67
+    }
+  },
+  "results_root": "/workspace/cluster/results/density_cf",
+  "status": {
+    "HDBSCAN": {
+      "expected": 2800,
+      "passed": 429,
+      "failed": 0,
+      "counts": {
+        "E": 333,
+        "H": 96,
+        "H-fixed-E": 0,
+        "H-weak": 0,
+        "H-strong": 0
+      }
+    },
+    "BIRCH": {
+      "expected": 2800,
+      "passed": 192,
+      "failed": 0,
+      "counts": {
+        "E": 96,
+        "H": 96,
+        "H-fixed-E": 0,
+        "H-weak": 0,
+        "H-strong": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "dataset": "Compound",
+      "seed": 0,
+      "inputs_equal": true,
+      "modules_ari": 1.0,
+      "regions_ari": 1.0,
+      "legacy_h30": 0.9519506372119902,
+      "audited_h30": 0.9519506372119902,
+      "legacy_agents": 3,
+      "audited_agents": 3,
+      "legacy_remapping_collision": false
+    },
+    {
+      "dataset": "D31",
+      "seed": 0,
+      "inputs_equal": true,
+      "modules_ari": 1.0,
+      "regions_ari": 1.0,
+      "legacy_h30": 0.6177055849834757,
+      "audited_h30": 0.8393502863392402,
+      "legacy_agents": 5,
+      "audited_agents": 5,
+      "legacy_remapping_collision": false
+    }
+  ],
+  "interpretation": "Inputs and partitions agree in both probes. D31 search changes; audited code removes true-K KMeans and independently resets training random streams. Do not attribute the whole legacy/audited difference to geometry or remapping fixes."
+}

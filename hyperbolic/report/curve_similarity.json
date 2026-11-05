@@ -1,0 +1,66 @@
+[
+  {
+    "method": "MA-TD3",
+    "datasets": 8,
+    "complete": true,
+    "macro_absolute_h30_difference": 0.01829055652860882,
+    "macro_absolute_auc_difference": 0.04534173699195944,
+    "descriptive_close": false
+  },
+  {
+    "method": "SA-TD3",
+    "datasets": 8,
+    "complete": true,
+    "macro_absolute_h30_difference": 0.010305408073301138,
+    "macro_absolute_auc_difference": 0.006444796939192792,
+    "descriptive_close": true
+  },
+  {
+    "method": "Rand",
+    "datasets": 8,
+    "complete": true,
+    "macro_absolute_h30_difference": 0.007824907865538735,
+    "macro_absolute_auc_difference": 0.006347336099728774,
+    "descriptive_close": true
+  },
+  {
+    "method": "BO-TPE",
+    "datasets": 8,
+    "complete": true,
+    "macro_absolute_h30_difference": 0.013933346389084859,
+    "macro_absolute_auc_difference": 0.0044331006586644075,
+    "descriptive_close": true
+  },
+  {
+    "method": "Anneal",
+    "datasets": 8,
+    "complete": true,
+    "macro_absolute_h30_difference": 0.012578817757632525,
+    "macro_absolute_auc_difference": 0.009049915908006544,
+    "descriptive_close": true
+  },
+  {
+    "method": "PSO",
+    "datasets": 8,
+    "complete": true,
+    "macro_absolute_h30_difference": 0.01494986872818281,
+    "macro_absolute_auc_difference": 0.010001317760638933,
+    "descriptive_close": true
+  },
+  {
+    "method": "GA",
+    "datasets": 8,
+    "complete": true,
+    "macro_absolute_h30_difference": 0.012451438334683013,
+    "macro_absolute_auc_difference": 0.006136466968480935,
+    "descriptive_close": true
+  },
+  {
+    "method": "DE",
+    "datasets": 8,
+    "complete": true,
+    "macro_absolute_h30_difference": 0.0115777721714816,
+    "macro_absolute_auc_difference": 0.009789740972214134,
+    "descriptive_close": true
+  }
+]

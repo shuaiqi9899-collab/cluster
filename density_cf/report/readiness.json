@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "backend_scope": [
+    "HDBSCAN"
+  ],
+  "unit_tests": 3,
+  "unit_test_log": "test_hdbscan_stock_equivalence (density_cf.test_backends.BackendTests) ... ok\ntest_small_hdbscan (density_cf.test_backends.BackendTests) ... ok\ntest_noise_merge (density_cf.test_backends.BackendTests) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.065s\n\nOK\n",
+  "cli_rejects_retired_backend": true,
+  "programmatic_calls_reject_retired_backend": true,
+  "scheduler_excludes_retired_backend": true,
+  "hdbscan_public_entrypoint_cached_case": "passed; Pathbased E seed0 Grid-30; no retraining",
+  "executed_matrix": "HDBSCAN ten seeds:2800 cases; E/H, fixed-E regions, weak/strong mappings",
+  "verified_cases": 2800,
+  "independent_support_reward_checks": 518719,
+  "independent_selected_models": 769,
+  "retired_backends": [
+    "BIRCH"
+  ],
+  "retained_birch_cases": 538,
+  "cancelled_birch_cases": 2262,
+  "historical_evidence": "results/density_cf/archive/pre_birch_retirement; density_cf/archive/pre_birch_retirement",
+  "unrun": []
+}

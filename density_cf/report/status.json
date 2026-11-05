@@ -1,0 +1,14 @@
+{
+  "HDBSCAN": {
+    "expected": 2800,
+    "passed": 2800,
+    "failed": 0,
+    "counts": {
+      "E": 960,
+      "H": 960,
+      "H-fixed-E": 240,
+      "H-weak": 320,
+      "H-strong": 320
+    }
+  }
+}

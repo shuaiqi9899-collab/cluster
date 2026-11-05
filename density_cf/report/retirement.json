@@ -1,0 +1,14 @@
+{
+  "backend": "BIRCH",
+  "status": "retired",
+  "reason": "User explicitly terminated and eliminated this algorithm",
+  "active_backends": [
+    "HDBSCAN"
+  ],
+  "retained_cases": 538,
+  "cancelled_cases": 2262,
+  "original_engine_sha256": "36e81e07ff15d55f0651ec484ce836d1a4ca95ed7fd17845f9798b691ce60776",
+  "archived_report": "density_cf/archive/pre_birch_retirement",
+  "frozen_engine": "density_cf/_frozen_experiment_v1.py",
+  "cancelled_is_not_failure": true
+}

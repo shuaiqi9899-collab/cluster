@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "backend_scope": [
+    "HDBSCAN"
+  ],
+  "unique_selected_models": 769,
+  "hdbscan_public": 769,
+  "birch_public": 0,
+  "native_cf": 0,
+  "native_leaves": 0,
+  "independent_frechet": 0,
+  "proved_shortcuts": 0
+}

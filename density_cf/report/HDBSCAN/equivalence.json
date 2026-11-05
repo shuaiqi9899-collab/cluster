@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "status": "met_predefined_similarity",
+  "margin": 0.02,
+  "mean_difference": 0.00024066002013916482,
+  "ci90": [
+    -0.005937158660322123,
+    0.006178403334055143
+  ],
+  "datasets_within_005": 7
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "unit_tests": 6,
+  "unit_test_log": "test_euclidean_cf_matches_sklearn (density_cf.test_backends.BackendTests) ... ok\ntest_hdbscan_stock_equivalence (density_cf.test_backends.BackendTests) ... ok\ntest_native_radius_independent_mean (density_cf.test_backends.BackendTests) ... ok\ntest_noise_merge (density_cf.test_backends.BackendTests) ... ok\ntest_small_hdbscan (density_cf.test_backends.BackendTests) ... ok\ntest_small_radius_shortcut_and_duplicates (density_cf.test_backends.BackendTests) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 1.216s\n\nOK\n",
+  "lightweight_region_banks": 32,
+  "canonical_id_sets": 131,
+  "end_to_end_predictions_equal": 4,
+  "label_independence_and_all_eight_baseline_budgets": "Passed for both backends on Pathbased H; predictions unchanged under different support labels; all budgets30",
+  "dependency": "hdbscan==0.8.40 overlay; pip check passed; existing dependency pins unchanged",
+  "executed_matrix": "8 datasets x2 spaces x2 backends x12 methods x1 seed =384; complete training in each TD3 case",
+  "unrun": "Other9 seeds, H-fixed-E and mapping sensitivity experiments; not used for similarity claims"
+}

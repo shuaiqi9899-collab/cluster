@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "unique_selected_models": 323,
+  "hdbscan_public": 103,
+  "birch_public": 112,
+  "native_cf": 108,
+  "native_leaves": 8417,
+  "independent_frechet": 497,
+  "proved_shortcuts": 0
+}

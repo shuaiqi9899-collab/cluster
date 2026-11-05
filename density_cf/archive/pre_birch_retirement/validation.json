@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "verified_cases": 384,
+  "independent_support_reward_checks": 51985,
+  "unchanged_old_source_files": 30,
+  "training_core_invocations_verified": 7,
+  "errors": []
+}

@@ -1,0 +1,2608 @@
+{
+  "status": "passed",
+  "native_ward_trees": 100,
+  "checked_merge_objectives": 300,
+  "solver": "Independent first-order Karcher solve from prior geometry module; no Newton Hessian or linkage recursion",
+  "results": [
+    {
+      "dataset": "Aggregation",
+      "space": "H",
+      "subset": "1a061f9898984440d4af6ba4",
+      "n": 788,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.3224546210383164e-05,
+          "saved_increment": 2.3224546210383157e-05,
+          "absolute_error": 6.776263578034403e-21
+        },
+        {
+          "merge": 393,
+          "independent_increment": 0.0013175955407835392,
+          "saved_increment": 0.0013175955407835514,
+          "absolute_error": 1.214306433183765e-17
+        },
+        {
+          "merge": 786,
+          "independent_increment": 141.50783006138582,
+          "saved_increment": 141.50783006138852,
+          "absolute_error": 2.7000623958883807e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H",
+      "subset": "b81f48ab58ce0954b2412666",
+      "n": 170,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 5.4040942209535156e-05,
+          "saved_increment": 5.404094220953517e-05,
+          "absolute_error": 1.3552527156068805e-20
+        },
+        {
+          "merge": 84,
+          "independent_increment": 0.0018525690310550239,
+          "saved_increment": 0.0018525690310548075,
+          "absolute_error": 2.1640675362810669e-16
+        },
+        {
+          "merge": 168,
+          "independent_increment": 5.102859415239751,
+          "saved_increment": 5.102859415239743,
+          "absolute_error": 7.993605777301127e-15
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H",
+      "subset": "474ae46964bcdbc93fa77aaf",
+      "n": 341,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.3224546210383164e-05,
+          "saved_increment": 2.3224546210383157e-05,
+          "absolute_error": 6.776263578034403e-21
+        },
+        {
+          "merge": 169,
+          "independent_increment": 0.0010915287722420282,
+          "saved_increment": 0.0010915287722420178,
+          "absolute_error": 1.0408340855860843e-17
+        },
+        {
+          "merge": 339,
+          "independent_increment": 12.550470452111945,
+          "saved_increment": 12.550470452111231,
+          "absolute_error": 7.140954494389007e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H",
+      "subset": "9902a881700fd94ba62548fe",
+      "n": 232,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 4.8693228737898566e-05,
+          "saved_increment": 4.869322873789859e-05,
+          "absolute_error": 2.710505431213761e-20
+        },
+        {
+          "merge": 115,
+          "independent_increment": 0.0014224283003531665,
+          "saved_increment": 0.0014224283003529713,
+          "absolute_error": 1.951563910473908e-16
+        },
+        {
+          "merge": 230,
+          "independent_increment": 42.00257014285767,
+          "saved_increment": 42.00257014285694,
+          "absolute_error": 7.318590178329032e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H",
+      "subset": "9a107e4835be36c119d08723",
+      "n": 45,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 9.701036080615316e-05,
+          "saved_increment": 9.701036080615314e-05,
+          "absolute_error": 2.710505431213761e-20
+        },
+        {
+          "merge": 21,
+          "independent_increment": 0.00128458805455633,
+          "saved_increment": 0.001284588054556147,
+          "absolute_error": 1.8301332671555315e-16
+        },
+        {
+          "merge": 43,
+          "independent_increment": 0.23842693491423775,
+          "saved_increment": 0.23842693491423747,
+          "absolute_error": 2.7755575615628914e-16
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-strong",
+      "subset": "1a061f9898984440d4af6ba4",
+      "n": 788,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.00012383119995280136,
+          "saved_increment": 0.0001238311999528012,
+          "absolute_error": 1.6263032587282567e-19
+        },
+        {
+          "merge": 393,
+          "independent_increment": 0.006509862779179656,
+          "saved_increment": 0.006509862779178951,
+          "absolute_error": 7.042977312465837e-16
+        },
+        {
+          "merge": 786,
+          "independent_increment": 474.3886143041982,
+          "saved_increment": 474.38861430419615,
+          "absolute_error": 2.0463630789890885e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-strong",
+      "subset": "b81f48ab58ce0954b2412666",
+      "n": 170,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0003999668065155944,
+          "saved_increment": 0.00039996680651555364,
+          "absolute_error": 4.0766001685454967e-17
+        },
+        {
+          "merge": 84,
+          "independent_increment": 0.008348766823081919,
+          "saved_increment": 0.008348766823081917,
+          "absolute_error": 1.734723475976807e-18
+        },
+        {
+          "merge": 168,
+          "independent_increment": 23.203117538489607,
+          "saved_increment": 23.20311753848962,
+          "absolute_error": 1.4210854715202004e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-strong",
+      "subset": "72c658509c1918c297f09839",
+      "n": 307,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.00012383119995280136,
+          "saved_increment": 0.0001238311999528012,
+          "absolute_error": 1.6263032587282567e-19
+        },
+        {
+          "merge": 152,
+          "independent_increment": 0.005101342872534687,
+          "saved_increment": 0.005101342872534402,
+          "absolute_error": 2.8449465006019636e-16
+        },
+        {
+          "merge": 305,
+          "independent_increment": 46.2783397606302,
+          "saved_increment": 46.27833976063036,
+          "absolute_error": 1.5631940186722204e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-strong",
+      "subset": "9902a881700fd94ba62548fe",
+      "n": 232,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.00019857906093628184,
+          "saved_increment": 0.00019857906093628184,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 115,
+          "independent_increment": 0.00752825922370501,
+          "saved_increment": 0.0075282592237052495,
+          "absolute_error": 2.393918396847994e-16
+        },
+        {
+          "merge": 230,
+          "independent_increment": 210.9845982175299,
+          "saved_increment": 210.98459821752974,
+          "absolute_error": 1.7053025658242404e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-strong",
+      "subset": "7ec3244d3d879bb21de4be69",
+      "n": 79,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0004990955555151731,
+          "saved_increment": 0.0004990955555151252,
+          "absolute_error": 4.7921736023859296e-17
+        },
+        {
+          "merge": 38,
+          "independent_increment": 0.005400776452648284,
+          "saved_increment": 0.005400776452646246,
+          "absolute_error": 2.03743272253476e-15
+        },
+        {
+          "merge": 77,
+          "independent_increment": 152.17569914971727,
+          "saved_increment": 152.17569914971702,
+          "absolute_error": 2.5579538487363607e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-weak",
+      "subset": "1a061f9898984440d4af6ba4",
+      "n": 788,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.915003755126698e-06,
+          "saved_increment": 2.9150037410243322e-06,
+          "absolute_error": 1.4102365888284726e-14
+        },
+        {
+          "merge": 393,
+          "independent_increment": 0.00016227502003441697,
+          "saved_increment": 0.00016227502003441692,
+          "absolute_error": 5.421010862427522e-20
+        },
+        {
+          "merge": 786,
+          "independent_increment": 20.456221402090428,
+          "saved_increment": 20.45622140209243,
+          "absolute_error": 2.0037305148434825e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-weak",
+      "subset": "b81f48ab58ce0954b2412666",
+      "n": 170,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 6.133041699053145e-06,
+          "saved_increment": 6.133041699053143e-06,
+          "absolute_error": 1.6940658945086007e-21
+        },
+        {
+          "merge": 84,
+          "independent_increment": 0.0002234460615321127,
+          "saved_increment": 0.0002234460615321126,
+          "absolute_error": 1.0842021724855044e-19
+        },
+        {
+          "merge": 168,
+          "independent_increment": 0.5867457155504283,
+          "saved_increment": 0.5867457155507413,
+          "absolute_error": 3.1297187064183163e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-weak",
+      "subset": "474ae46964bcdbc93fa77aaf",
+      "n": 341,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.915003755126698e-06,
+          "saved_increment": 2.9150037410243322e-06,
+          "absolute_error": 1.4102365888284726e-14
+        },
+        {
+          "merge": 169,
+          "independent_increment": 0.00014157898469259475,
+          "saved_increment": 0.0001415789846925948,
+          "absolute_error": 5.421010862427522e-20
+        },
+        {
+          "merge": 339,
+          "independent_increment": 1.6218842913320595,
+          "saved_increment": 1.6218842913320928,
+          "absolute_error": 3.3306690738754696e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-weak",
+      "subset": "9902a881700fd94ba62548fe",
+      "n": 232,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 5.678609242403743e-06,
+          "saved_increment": 5.678609242403743e-06,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 115,
+          "independent_increment": 0.00017953164443464838,
+          "saved_increment": 0.00017953164443464828,
+          "absolute_error": 1.0842021724855044e-19
+        },
+        {
+          "merge": 230,
+          "independent_increment": 5.137132891796229,
+          "saved_increment": 5.137132891796229,
+          "absolute_error": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "Aggregation",
+      "space": "H-weak",
+      "subset": "9a107e4835be36c119d08723",
+      "n": 45,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.2298869484820065e-05,
+          "saved_increment": 1.2298869484820068e-05,
+          "absolute_error": 3.3881317890172014e-21
+        },
+        {
+          "merge": 21,
+          "independent_increment": 0.00016480776327114548,
+          "saved_increment": 0.0001648077632711454,
+          "absolute_error": 8.131516293641283e-20
+        },
+        {
+          "merge": 43,
+          "independent_increment": 0.02767653012932587,
+          "saved_increment": 0.027676530129324462,
+          "absolute_error": 1.4085954624931674e-15
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H",
+      "subset": "702746827e553786bb026ac1",
+      "n": 1000,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 3.8274409258764014e-07,
+          "saved_increment": 3.8274409217988917e-07,
+          "absolute_error": 4.077509670172611e-16
+        },
+        {
+          "merge": 499,
+          "independent_increment": 0.0003104352508443961,
+          "saved_increment": 0.0003104352508443959,
+          "absolute_error": 2.168404344971009e-19
+        },
+        {
+          "merge": 998,
+          "independent_increment": 282.1607298810118,
+          "saved_increment": 282.1607298810105,
+          "absolute_error": 1.2505552149377763e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H",
+      "subset": "af36a5022955162010436887",
+      "n": 611,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 3.8274409258764014e-07,
+          "saved_increment": 3.8274409217988917e-07,
+          "absolute_error": 4.077509670172611e-16
+        },
+        {
+          "merge": 304,
+          "independent_increment": 0.00030059087936049034,
+          "saved_increment": 0.00030059087936049045,
+          "absolute_error": 1.0842021724855044e-19
+        },
+        {
+          "merge": 609,
+          "independent_increment": 51.24015492292924,
+          "saved_increment": 51.24015492292892,
+          "absolute_error": 3.197442310920451e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H",
+      "subset": "477f127e9c6c59058b83ff24",
+      "n": 198,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 3.9454244918926043e-07,
+          "saved_increment": 3.945424466817664e-07,
+          "absolute_error": 2.5074940271904483e-15
+        },
+        {
+          "merge": 98,
+          "independent_increment": 0.0005579487619814846,
+          "saved_increment": 0.0005579487619814729,
+          "absolute_error": 1.1709383462843448e-17
+        },
+        {
+          "merge": 196,
+          "independent_increment": 2.918618377182976,
+          "saved_increment": 2.9186183771831566,
+          "absolute_error": 1.8074430840897548e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H",
+      "subset": "a9572be55705699c64e0bc5e",
+      "n": 191,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 3.97399199001638e-07,
+          "saved_increment": 3.9739919643683103e-07,
+          "absolute_error": 2.5648069763191937e-15
+        },
+        {
+          "merge": 94,
+          "independent_increment": 0.00016181106667872958,
+          "saved_increment": 0.0001618110666787292,
+          "absolute_error": 3.7947076036992655e-19
+        },
+        {
+          "merge": 189,
+          "independent_increment": 1.221446509438033,
+          "saved_increment": 1.221446509437984,
+          "absolute_error": 4.884981308350689e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H",
+      "subset": "3c75e7dc6e5e46c949d962e5",
+      "n": 802,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 3.8274409258764014e-07,
+          "saved_increment": 3.8274409217988917e-07,
+          "absolute_error": 4.077509670172611e-16
+        },
+        {
+          "merge": 400,
+          "independent_increment": 0.00027276198894172934,
+          "saved_increment": 0.00027276198894172923,
+          "absolute_error": 1.0842021724855044e-19
+        },
+        {
+          "merge": 800,
+          "independent_increment": 199.8098534626993,
+          "saved_increment": 199.80985346269858,
+          "absolute_error": 7.105427357601002e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H-strong",
+      "subset": "702746827e553786bb026ac1",
+      "n": 1000,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.5313841001881495e-06,
+          "saved_increment": 1.5313841001881495e-06,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 499,
+          "independent_increment": 0.0015054155062795152,
+          "saved_increment": 0.001505415506276701,
+          "absolute_error": 2.8141551589033753e-15
+        },
+        {
+          "merge": 998,
+          "independent_increment": 982.5259715141067,
+          "saved_increment": 982.525971514109,
+          "absolute_error": 2.2737367544323206e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H-strong",
+      "subset": "af36a5022955162010436887",
+      "n": 611,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.5313841001881495e-06,
+          "saved_increment": 1.5313841001881495e-06,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 304,
+          "independent_increment": 0.0014421591932527167,
+          "saved_increment": 0.0014421591932514896,
+          "absolute_error": 1.227100018819094e-15
+        },
+        {
+          "merge": 609,
+          "independent_increment": 235.73571750267536,
+          "saved_increment": 235.73571750267274,
+          "absolute_error": 2.6147972675971687e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H-strong",
+      "subset": "477f127e9c6c59058b83ff24",
+      "n": 198,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.768682601131747e-06,
+          "saved_increment": 1.7686826011317464e-06,
+          "absolute_error": 6.352747104407253e-22
+        },
+        {
+          "merge": 98,
+          "independent_increment": 0.0029209158424457105,
+          "saved_increment": 0.002920915842445715,
+          "absolute_error": 4.336808689942018e-18
+        },
+        {
+          "merge": 196,
+          "independent_increment": 21.251937647515156,
+          "saved_increment": 21.251937647515085,
+          "absolute_error": 7.105427357601002e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H-strong",
+      "subset": "a9572be55705699c64e0bc5e",
+      "n": 191,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.8267250383555592e-06,
+          "saved_increment": 1.8267250383555594e-06,
+          "absolute_error": 2.117582368135751e-22
+        },
+        {
+          "merge": 94,
+          "independent_increment": 0.0008320204779081607,
+          "saved_increment": 0.0008320204779079772,
+          "absolute_error": 1.8344700758454735e-16
+        },
+        {
+          "merge": 189,
+          "independent_increment": 7.889638731246496,
+          "saved_increment": 7.889638731246499,
+          "absolute_error": 2.6645352591003757e-15
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H-weak",
+      "subset": "702746827e553786bb026ac1",
+      "n": 1000,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 5.213084588874619e-08,
+          "saved_increment": 5.213084588770241e-08,
+          "absolute_error": 1.0437762015888129e-18
+        },
+        {
+          "merge": 499,
+          "independent_increment": 3.875677986868459e-05,
+          "saved_increment": 3.875677987427186e-05,
+          "absolute_error": 5.587266489314596e-15
+        },
+        {
+          "merge": 998,
+          "independent_increment": 40.06194985779416,
+          "saved_increment": 40.06194985779646,
+          "absolute_error": 2.3021584638627246e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H-weak",
+      "subset": "3c75e7dc6e5e46c949d962e5",
+      "n": 802,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 5.213084588874619e-08,
+          "saved_increment": 5.213084588770241e-08,
+          "absolute_error": 1.0437762015888129e-18
+        },
+        {
+          "merge": 400,
+          "independent_increment": 3.444950095839558e-05,
+          "saved_increment": 3.4449500958395556e-05,
+          "absolute_error": 2.0328790734103208e-20
+        },
+        {
+          "merge": 800,
+          "independent_increment": 27.53123724547649,
+          "saved_increment": 27.53123724547303,
+          "absolute_error": 3.460343123151688e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Asymmetric",
+      "space": "H-weak",
+      "subset": "477f127e9c6c59058b83ff24",
+      "n": 198,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 5.233589869476378e-08,
+          "saved_increment": 5.233589868826396e-08,
+          "absolute_error": 6.499819817319181e-18
+        },
+        {
+          "merge": 98,
+          "independent_increment": 6.901601879163478e-05,
+          "saved_increment": 6.901601879163478e-05,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 196,
+          "independent_increment": 0.35598841257610453,
+          "saved_increment": 0.35598841257627356,
+          "absolute_error": 1.6903145549918008e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H",
+      "subset": "027372986d6fd6382b69dfc3",
+      "n": 399,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0001446881538235217,
+          "saved_increment": 0.0001446881538235217,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 198,
+          "independent_increment": 0.0019828437051318416,
+          "saved_increment": 0.0019828437051310948,
+          "absolute_error": 7.467984564080155e-16
+        },
+        {
+          "merge": 397,
+          "independent_increment": 66.68521293675792,
+          "saved_increment": 66.68521293675796,
+          "absolute_error": 4.263256414560601e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H",
+      "subset": "c202d9cfc7858fd49d522047",
+      "n": 50,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0020260488982921042,
+          "saved_increment": 0.0020260488982866915,
+          "absolute_error": 5.412770925916632e-15
+        },
+        {
+          "merge": 24,
+          "independent_increment": 0.01299716741285439,
+          "saved_increment": 0.01299716741285432,
+          "absolute_error": 6.938893903907228e-17
+        },
+        {
+          "merge": 48,
+          "independent_increment": 7.414706388828226,
+          "saved_increment": 7.414706388828238,
+          "absolute_error": 1.1546319456101628e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H",
+      "subset": "9f106c41456b4a33bce14027",
+      "n": 250,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0001446881538235217,
+          "saved_increment": 0.0001446881538235217,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 124,
+          "independent_increment": 0.0010548706236734994,
+          "saved_increment": 0.0010548706236735057,
+          "absolute_error": 6.288372600415926e-18
+        },
+        {
+          "merge": 248,
+          "independent_increment": 59.04699030757392,
+          "saved_increment": 59.0469903075739,
+          "absolute_error": 2.1316282072803006e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H",
+      "subset": "a54d89d5d920ad13f06b16d6",
+      "n": 99,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.00014867235295842906,
+          "saved_increment": 0.00014867235295842903,
+          "absolute_error": 2.710505431213761e-20
+        },
+        {
+          "merge": 48,
+          "independent_increment": 0.0029993147850894903,
+          "saved_increment": 0.002999314785089489,
+          "absolute_error": 1.3010426069826053e-18
+        },
+        {
+          "merge": 97,
+          "independent_increment": 9.662775655823978,
+          "saved_increment": 9.66277565582396,
+          "absolute_error": 1.7763568394002505e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H-strong",
+      "subset": "027372986d6fd6382b69dfc3",
+      "n": 399,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0006530259510318002,
+          "saved_increment": 0.0006530259510317435,
+          "absolute_error": 5.670377362099188e-17
+        },
+        {
+          "merge": 198,
+          "independent_increment": 0.008826376750200567,
+          "saved_increment": 0.008826376750200551,
+          "absolute_error": 1.5612511283791264e-17
+        },
+        {
+          "merge": 397,
+          "independent_increment": 246.90712221761618,
+          "saved_increment": 246.90712221761729,
+          "absolute_error": 1.1084466677857563e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H-strong",
+      "subset": "9110fcf8c6592bfc449b2b63",
+      "n": 49,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.012561292683080656,
+          "saved_increment": 0.012561292683080528,
+          "absolute_error": 1.2836953722228372e-16
+        },
+        {
+          "merge": 23,
+          "independent_increment": 0.05757892403148218,
+          "saved_increment": 0.05757892403148217,
+          "absolute_error": 1.3877787807814457e-17
+        },
+        {
+          "merge": 47,
+          "independent_increment": 33.3656113641494,
+          "saved_increment": 33.36561136414947,
+          "absolute_error": 7.105427357601002e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H-strong",
+      "subset": "7d534b7251437d8d54f5764a",
+      "n": 93,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.000671028862938563,
+          "saved_increment": 0.0006710288629384661,
+          "absolute_error": 9.69276742202041e-17
+        },
+        {
+          "merge": 45,
+          "independent_increment": 0.0037035342203532947,
+          "saved_increment": 0.0037035342203533134,
+          "absolute_error": 1.8648277366750676e-17
+        },
+        {
+          "merge": 91,
+          "independent_increment": 5.390664806590227,
+          "saved_increment": 5.390664806590227,
+          "absolute_error": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H-strong",
+      "subset": "a54d89d5d920ad13f06b16d6",
+      "n": 99,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0006530259510318002,
+          "saved_increment": 0.0006530259510317435,
+          "absolute_error": 5.670377362099188e-17
+        },
+        {
+          "merge": 48,
+          "independent_increment": 0.015301818762343261,
+          "saved_increment": 0.015301818762342743,
+          "absolute_error": 5.186823193170653e-16
+        },
+        {
+          "merge": 97,
+          "independent_increment": 39.232563727318535,
+          "saved_increment": 39.23256372731815,
+          "absolute_error": 3.836930773104541e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H-strong",
+      "subset": "dabf6168758a185acf7f4a45",
+      "n": 158,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0007270132425828504,
+          "saved_increment": 0.000727013242582824,
+          "absolute_error": 2.6346112791397758e-17
+        },
+        {
+          "merge": 78,
+          "independent_increment": 0.00520711481101058,
+          "saved_increment": 0.005207114811010591,
+          "absolute_error": 1.0408340855860843e-17
+        },
+        {
+          "merge": 156,
+          "independent_increment": 21.961101060549737,
+          "saved_increment": 21.961101060549936,
+          "absolute_error": 1.9895196601282805e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H-weak",
+      "subset": "027372986d6fd6382b69dfc3",
+      "n": 399,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.897249612696617e-05,
+          "saved_increment": 1.8972496126966174e-05,
+          "absolute_error": 3.3881317890172014e-21
+        },
+        {
+          "merge": 198,
+          "independent_increment": 0.000249589348482623,
+          "saved_increment": 0.0002495893484826228,
+          "absolute_error": 2.168404344971009e-19
+        },
+        {
+          "merge": 397,
+          "independent_increment": 9.324039804075298,
+          "saved_increment": 9.324039804075927,
+          "absolute_error": 6.288303211476887e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H-weak",
+      "subset": "c202d9cfc7858fd49d522047",
+      "n": 50,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.00024690725223693987,
+          "saved_increment": 0.00024690725223693976,
+          "absolute_error": 1.0842021724855044e-19
+        },
+        {
+          "merge": 24,
+          "independent_increment": 0.001684608202339647,
+          "saved_increment": 0.0016846082023396138,
+          "absolute_error": 3.3176586478056436e-17
+        },
+        {
+          "merge": 48,
+          "independent_increment": 0.9582273207128735,
+          "saved_increment": 0.9582273207130232,
+          "absolute_error": 1.496580637194711e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H-weak",
+      "subset": "9f106c41456b4a33bce14027",
+      "n": 250,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.897249612696617e-05,
+          "saved_increment": 1.8972496126966174e-05,
+          "absolute_error": 3.3881317890172014e-21
+        },
+        {
+          "merge": 124,
+          "independent_increment": 0.0001319734927490805,
+          "saved_increment": 0.00013197349274908052,
+          "absolute_error": 2.710505431213761e-20
+        },
+        {
+          "merge": 248,
+          "independent_increment": 8.06325411884067,
+          "saved_increment": 8.06325411884033,
+          "absolute_error": 3.3928415632544784e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Compound",
+      "space": "H-weak",
+      "subset": "a54d89d5d920ad13f06b16d6",
+      "n": 99,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.9734555144214054e-05,
+          "saved_increment": 1.973455514421405e-05,
+          "absolute_error": 3.3881317890172014e-21
+        },
+        {
+          "merge": 48,
+          "independent_increment": 0.0003489751400055993,
+          "saved_increment": 0.00034897514000559925,
+          "absolute_error": 5.421010862427522e-20
+        },
+        {
+          "merge": 97,
+          "independent_increment": 1.3029292634052099,
+          "saved_increment": 1.3029292634058467,
+          "absolute_error": 6.368239269249898e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H",
+      "subset": "55f385cf2332d9056aaed6f4",
+      "n": 2000,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.9576421967632077e-09,
+          "saved_increment": 1.9576421966845614e-09,
+          "absolute_error": 7.864626469001049e-20
+        },
+        {
+          "merge": 999,
+          "independent_increment": 0.00030020379185819194,
+          "saved_increment": 0.00030020379185818994,
+          "absolute_error": 2.0057740190981832e-18
+        },
+        {
+          "merge": 1998,
+          "independent_increment": 342.98352459429725,
+          "saved_increment": 342.9835245942975,
+          "absolute_error": 2.2737367544323206e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H",
+      "subset": "9c1de924ca169f2bb2891388",
+      "n": 1600,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 3.4079018723506476e-08,
+          "saved_increment": 3.407901869248048e-08,
+          "absolute_error": 3.102599629475737e-17
+        },
+        {
+          "merge": 799,
+          "independent_increment": 0.00043561282663124353,
+          "saved_increment": 0.00043561282663124386,
+          "absolute_error": 3.2526065174565133e-19
+        },
+        {
+          "merge": 1598,
+          "independent_increment": 338.51630532070857,
+          "saved_increment": 338.5163053207036,
+          "absolute_error": 4.945377440890297e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H",
+      "subset": "182d58adf4e408383fca3964",
+      "n": 400,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.9576421967632077e-09,
+          "saved_increment": 1.9576421966845614e-09,
+          "absolute_error": 7.864626469001049e-20
+        },
+        {
+          "merge": 199,
+          "independent_increment": 3.7617254347574e-05,
+          "saved_increment": 3.7617254347574004e-05,
+          "absolute_error": 6.776263578034403e-21
+        },
+        {
+          "merge": 398,
+          "independent_increment": 21.89846619068816,
+          "saved_increment": 21.898466190687184,
+          "absolute_error": 9.769962616701378e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H-strong",
+      "subset": "55f385cf2332d9056aaed6f4",
+      "n": 2000,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.06045989713248e-08,
+          "saved_increment": 1.0604598964513567e-08,
+          "absolute_error": 6.8112334656106945e-18
+        },
+        {
+          "merge": 999,
+          "independent_increment": 0.0014820569945498364,
+          "saved_increment": 0.001482056994548624,
+          "absolute_error": 1.212354869273291e-15
+        },
+        {
+          "merge": 1998,
+          "independent_increment": 1170.7898053736062,
+          "saved_increment": 1170.789805373604,
+          "absolute_error": 2.2737367544323206e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H-strong",
+      "subset": "9c1de924ca169f2bb2891388",
+      "n": 1600,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.467724411332542e-07,
+          "saved_increment": 2.467724367158308e-07,
+          "absolute_error": 4.4174234095706105e-15
+        },
+        {
+          "merge": 799,
+          "independent_increment": 0.002192101526922804,
+          "saved_increment": 0.0021921015269172903,
+          "absolute_error": 5.513818568392281e-15
+        },
+        {
+          "merge": 1598,
+          "independent_increment": 1160.4911578990186,
+          "saved_increment": 1160.4911578990257,
+          "absolute_error": 7.048583938740194e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H-strong",
+      "subset": "182d58adf4e408383fca3964",
+      "n": 400,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.06045989713248e-08,
+          "saved_increment": 1.0604598964513567e-08,
+          "absolute_error": 6.8112334656106945e-18
+        },
+        {
+          "merge": 199,
+          "independent_increment": 0.00019296733734491613,
+          "saved_increment": 0.00019296733734491586,
+          "absolute_error": 2.710505431213761e-19
+        },
+        {
+          "merge": 398,
+          "independent_increment": 140.58213105627988,
+          "saved_increment": 140.58213105628036,
+          "absolute_error": 4.831690603168681e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H-weak",
+      "subset": "55f385cf2332d9056aaed6f4",
+      "n": 2000,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.4785734332559843e-10,
+          "saved_increment": 2.478573433254083e-10,
+          "absolute_error": 1.9014814331062724e-22
+        },
+        {
+          "merge": 999,
+          "independent_increment": 3.746251477714229e-05,
+          "saved_increment": 3.746251477714229e-05,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 1998,
+          "independent_increment": 50.27757548621224,
+          "saved_increment": 50.277575486211745,
+          "absolute_error": 4.973799150320701e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H-weak",
+      "subset": "9c1de924ca169f2bb2891388",
+      "n": 1600,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 3.981951795680468e-09,
+          "saved_increment": 3.981951795614419e-09,
+          "absolute_error": 6.604871755113415e-20
+        },
+        {
+          "merge": 799,
+          "independent_increment": 5.568778278240583e-05,
+          "saved_increment": 5.5687782782405394e-05,
+          "absolute_error": 4.336808689942018e-19
+        },
+        {
+          "merge": 1598,
+          "independent_increment": 48.446170345171275,
+          "saved_increment": 48.44617034516487,
+          "absolute_error": 6.401990049198503e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t1",
+      "space": "H-weak",
+      "subset": "182d58adf4e408383fca3964",
+      "n": 400,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.4785734332559843e-10,
+          "saved_increment": 2.478573433254083e-10,
+          "absolute_error": 1.9014814331062724e-22
+        },
+        {
+          "merge": 199,
+          "independent_increment": 4.422269745182176e-06,
+          "saved_increment": 4.422269710246362e-06,
+          "absolute_error": 3.493581461719731e-14
+        },
+        {
+          "merge": 398,
+          "independent_increment": 2.5503077386554502,
+          "saved_increment": 2.550307738655448,
+          "absolute_error": 2.220446049250313e-15
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H",
+      "subset": "be18dabf9913fd93fb0a96c5",
+      "n": 4200,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 7.712759059469567e-14,
+          "saved_increment": 7.712759059469562e-14,
+          "absolute_error": 5.048709793414476e-29
+        },
+        {
+          "merge": 2099,
+          "independent_increment": 0.00011493725148831082,
+          "saved_increment": 0.00011493725148831082,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 4198,
+          "independent_increment": 609.4569497756135,
+          "saved_increment": 609.456949775615,
+          "absolute_error": 1.5916157281026244e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H",
+      "subset": "6770c9567c63ea45bde6e8f3",
+      "n": 2309,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 8.961564240074252e-09,
+          "saved_increment": 8.961564238616753e-09,
+          "absolute_error": 1.4574988567633352e-18
+        },
+        {
+          "merge": 1153,
+          "independent_increment": 0.00017670830743766674,
+          "saved_increment": 0.0001767083074450318,
+          "absolute_error": 7.365066672856968e-15
+        },
+        {
+          "merge": 2307,
+          "independent_increment": 305.2752032145462,
+          "saved_increment": 305.2752032145462,
+          "absolute_error": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H",
+      "subset": "57ae983d81646a4f2e2d2f7d",
+      "n": 1891,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 7.712759059469567e-14,
+          "saved_increment": 7.712759059469562e-14,
+          "absolute_error": 5.048709793414476e-29
+        },
+        {
+          "merge": 944,
+          "independent_increment": 6.0818926336066596e-05,
+          "saved_increment": 6.0818926336066596e-05,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 1889,
+          "independent_increment": 308.7105826103141,
+          "saved_increment": 308.7105826103121,
+          "absolute_error": 1.9895196601282805e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H-strong",
+      "subset": "be18dabf9913fd93fb0a96c5",
+      "n": 4200,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 4.044065175653779e-13,
+          "saved_increment": 4.0440651756537306e-13,
+          "absolute_error": 4.8467614016778965e-27
+        },
+        {
+          "merge": 2099,
+          "independent_increment": 0.0005444313102925677,
+          "saved_increment": 0.0005444313102925656,
+          "absolute_error": 2.168404344971009e-18
+        },
+        {
+          "merge": 4198,
+          "independent_increment": 2068.2876511940076,
+          "saved_increment": 2068.2876511940103,
+          "absolute_error": 2.7284841053187847e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H-strong",
+      "subset": "4a5208e90bf967588116578e",
+      "n": 2315,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 6.023352827498115e-08,
+          "saved_increment": 6.023352807415345e-08,
+          "absolute_error": 2.0082770014573197e-16
+        },
+        {
+          "merge": 1156,
+          "independent_increment": 0.0008525338609403979,
+          "saved_increment": 0.0008525338609403453,
+          "absolute_error": 5.2583805365546965e-17
+        },
+        {
+          "merge": 2313,
+          "independent_increment": 1246.5494666629843,
+          "saved_increment": 1246.5494666629806,
+          "absolute_error": 3.637978807091713e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H-strong",
+      "subset": "e4dd64ba01096b71ccaebfce",
+      "n": 1885,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 4.044065175653779e-13,
+          "saved_increment": 4.0440651756537306e-13,
+          "absolute_error": 4.8467614016778965e-27
+        },
+        {
+          "merge": 941,
+          "independent_increment": 0.0003012037464448831,
+          "saved_increment": 0.0003012037464448801,
+          "absolute_error": 3.0357660829594124e-18
+        },
+        {
+          "merge": 1883,
+          "independent_increment": 1235.7807393559751,
+          "saved_increment": 1235.7807393559701,
+          "absolute_error": 5.002220859751105e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H-weak",
+      "subset": "be18dabf9913fd93fb0a96c5",
+      "n": 4200,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 9.691807775731968e-15,
+          "saved_increment": 9.69180777573197e-15,
+          "absolute_error": 1.5777218104420236e-30
+        },
+        {
+          "merge": 2099,
+          "independent_increment": 1.486638111802803e-05,
+          "saved_increment": 1.4866381118028033e-05,
+          "absolute_error": 3.3881317890172014e-21
+        },
+        {
+          "merge": 4198,
+          "independent_increment": 86.87221209254814,
+          "saved_increment": 86.87221209256356,
+          "absolute_error": 1.5418777365994174e-11
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H-weak",
+      "subset": "6770c9567c63ea45bde6e8f3",
+      "n": 2309,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.0475933640258163e-09,
+          "saved_increment": 1.0475933640228512e-09,
+          "absolute_error": 2.9650289056963277e-21
+        },
+        {
+          "merge": 1153,
+          "independent_increment": 2.339453922927156e-05,
+          "saved_increment": 2.3394539229273348e-05,
+          "absolute_error": 1.7889335846010823e-18
+        },
+        {
+          "merge": 2307,
+          "independent_increment": 40.734113774371316,
+          "saved_increment": 40.73411377436996,
+          "absolute_error": 1.3571366253017914e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Cure-t2",
+      "space": "H-weak",
+      "subset": "57ae983d81646a4f2e2d2f7d",
+      "n": 1891,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 9.691807775731968e-15,
+          "saved_increment": 9.69180777573197e-15,
+          "absolute_error": 1.5777218104420236e-30
+        },
+        {
+          "merge": 944,
+          "independent_increment": 7.914080584533601e-06,
+          "saved_increment": 7.914080584533601e-06,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 1889,
+          "independent_increment": 46.62577766709495,
+          "saved_increment": 46.62577766709542,
+          "absolute_error": 4.689582056016661e-13
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H",
+      "subset": "c22c49c44a47f1354f729df6",
+      "n": 3100,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.2054131704441426e-08,
+          "saved_increment": 1.2054131702569204e-08,
+          "absolute_error": 1.8722224004790467e-18
+        },
+        {
+          "merge": 1549,
+          "independent_increment": 0.00016677215169502748,
+          "saved_increment": 0.00016677215169502596,
+          "absolute_error": 1.5178830414797062e-18
+        },
+        {
+          "merge": 3098,
+          "independent_increment": 390.7757482805025,
+          "saved_increment": 390.77574828048535,
+          "absolute_error": 1.716671249596402e-11
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H",
+      "subset": "4991537593e70dd724a2aa32",
+      "n": 2100,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.3495290304613773e-08,
+          "saved_increment": 2.3495290297211453e-08,
+          "absolute_error": 7.402320187728837e-18
+        },
+        {
+          "merge": 1049,
+          "independent_increment": 0.00016677215169502748,
+          "saved_increment": 0.00016677215169502596,
+          "absolute_error": 1.5178830414797062e-18
+        },
+        {
+          "merge": 2098,
+          "independent_increment": 378.9205749131513,
+          "saved_increment": 378.92057491315256,
+          "absolute_error": 1.2505552149377763e-12
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H",
+      "subset": "09583fc40eb780028457c565",
+      "n": 300,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.2054131704441426e-08,
+          "saved_increment": 1.2054131702569204e-08,
+          "absolute_error": 1.8722224004790467e-18
+        },
+        {
+          "merge": 149,
+          "independent_increment": 0.00015460844953787668,
+          "saved_increment": 0.00015460844953787663,
+          "absolute_error": 5.421010862427522e-20
+        },
+        {
+          "merge": 298,
+          "independent_increment": 8.158132243352032,
+          "saved_increment": 8.158132243353123,
+          "absolute_error": 1.0906830993917538e-12
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H",
+      "subset": "fc87bd110c145b5cc102a308",
+      "n": 600,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 5.8676366075443166e-08,
+          "saved_increment": 5.8676366042195905e-08,
+          "absolute_error": 3.3247260789592966e-17
+        },
+        {
+          "merge": 299,
+          "independent_increment": 0.00016358920981283319,
+          "saved_increment": 0.00016358920981283313,
+          "absolute_error": 5.421010862427522e-20
+        },
+        {
+          "merge": 598,
+          "independent_increment": 44.06643245786378,
+          "saved_increment": 44.06643245786374,
+          "absolute_error": 4.263256414560601e-14
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H",
+      "subset": "e352fe760fe1847c2e6bc122",
+      "n": 100,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 4.4645293681627044e-07,
+          "saved_increment": 4.4645293138341033e-07,
+          "absolute_error": 5.432860112205781e-15
+        },
+        {
+          "merge": 49,
+          "independent_increment": 0.0001752316268185791,
+          "saved_increment": 0.00017523162681857898,
+          "absolute_error": 1.0842021724855044e-19
+        },
+        {
+          "merge": 98,
+          "independent_increment": 0.185034831433032,
+          "saved_increment": 0.18503483143373967,
+          "absolute_error": 7.076561558960748e-13
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H",
+      "subset": "e75b786623735d59c743aacd",
+      "n": 1794,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.3495290304613773e-08,
+          "saved_increment": 2.3495290297211453e-08,
+          "absolute_error": 7.402320187728837e-18
+        },
+        {
+          "merge": 896,
+          "independent_increment": 0.0001628951249573157,
+          "saved_increment": 0.00016289512495731569,
+          "absolute_error": 2.710505431213761e-20
+        },
+        {
+          "merge": 1792,
+          "independent_increment": 444.44597737443456,
+          "saved_increment": 444.4459773744346,
+          "absolute_error": 5.684341886080802e-14
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H",
+      "subset": "bbc5cda411a506a982f7af33",
+      "n": 602,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.2054131704441426e-08,
+          "saved_increment": 1.2054131702569204e-08,
+          "absolute_error": 1.8722224004790467e-18
+        },
+        {
+          "merge": 300,
+          "independent_increment": 0.00017071540479092834,
+          "saved_increment": 0.0001707154047909283,
+          "absolute_error": 2.710505431213761e-20
+        },
+        {
+          "merge": 600,
+          "independent_increment": 46.76325927937477,
+          "saved_increment": 46.7632592793748,
+          "absolute_error": 2.842170943040401e-14
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H",
+      "subset": "f24c082431bbbdd463fade72",
+      "n": 599,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 5.8676366075443166e-08,
+          "saved_increment": 5.8676366042195905e-08,
+          "absolute_error": 3.3247260789592966e-17
+        },
+        {
+          "merge": 298,
+          "independent_increment": 0.0001630508435153082,
+          "saved_increment": 0.0001630508435153083,
+          "absolute_error": 1.0842021724855044e-19
+        },
+        {
+          "merge": 597,
+          "independent_increment": 43.94637639899119,
+          "saved_increment": 43.94637639899117,
+          "absolute_error": 2.1316282072803006e-14
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H",
+      "subset": "2543e58647d88a2caed18961",
+      "n": 5,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.00014063510638692565,
+          "saved_increment": 0.00014063510638692554,
+          "absolute_error": 1.0842021724855044e-19
+        },
+        {
+          "merge": 1,
+          "independent_increment": 0.00018794063710048602,
+          "saved_increment": 0.00018794063710048561,
+          "absolute_error": 4.0657581468206416e-19
+        },
+        {
+          "merge": 3,
+          "independent_increment": 0.0044765485143358815,
+          "saved_increment": 0.004476548514331699,
+          "absolute_error": 4.182418300580082e-15
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-strong",
+      "subset": "c22c49c44a47f1354f729df6",
+      "n": 3100,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 6.706096929361064e-08,
+          "saved_increment": 6.706096910312114e-08,
+          "absolute_error": 1.9048950420581562e-16
+        },
+        {
+          "merge": 1549,
+          "independent_increment": 0.0007905392270968958,
+          "saved_increment": 0.0007905392270965939,
+          "absolute_error": 3.01950305037213e-16
+        },
+        {
+          "merge": 3098,
+          "independent_increment": 1653.3875187567912,
+          "saved_increment": 1653.3875187567946,
+          "absolute_error": 3.410605131648481e-12
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-strong",
+      "subset": "60093074bd82b760b44edc1c",
+      "n": 899,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.3389546809961645e-07,
+          "saved_increment": 1.3389546739344664e-07,
+          "absolute_error": 7.061698064089137e-16
+        },
+        {
+          "merge": 448,
+          "independent_increment": 0.0008340326276532566,
+          "saved_increment": 0.0008340326276532662,
+          "absolute_error": 9.64939933512099e-18
+        },
+        {
+          "merge": 897,
+          "independent_increment": 340.6457597058175,
+          "saved_increment": 340.6457597058171,
+          "absolute_error": 3.979039320256561e-13
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-strong",
+      "subset": "43491742dbbd3f4512dabffb",
+      "n": 1201,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.1465233995533213e-07,
+          "saved_increment": 1.1465233938026101e-07,
+          "absolute_error": 5.750711157956868e-16
+        },
+        {
+          "merge": 599,
+          "independent_increment": 0.0007403589519277274,
+          "saved_increment": 0.000740358951927694,
+          "absolute_error": 3.3393426912553537e-17
+        },
+        {
+          "merge": 1199,
+          "independent_increment": 360.58186336640136,
+          "saved_increment": 360.5818633664047,
+          "absolute_error": 3.353761712787673e-12
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-strong",
+      "subset": "09583fc40eb780028457c565",
+      "n": 300,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 6.706096929361064e-08,
+          "saved_increment": 6.706096910312114e-08,
+          "absolute_error": 1.9048950420581562e-16
+        },
+        {
+          "merge": 149,
+          "independent_increment": 0.0007581204068334704,
+          "saved_increment": 0.0007581204068333603,
+          "absolute_error": 1.100465205072787e-16
+        },
+        {
+          "merge": 298,
+          "independent_increment": 48.34032875762639,
+          "saved_increment": 48.34032875762445,
+          "absolute_error": 1.9397816686250735e-12
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-strong",
+      "subset": "fc87bd110c145b5cc102a308",
+      "n": 600,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.9320571489951324e-07,
+          "saved_increment": 2.9320571203798416e-07,
+          "absolute_error": 2.861529076368598e-15
+        },
+        {
+          "merge": 299,
+          "independent_increment": 0.0008427924799446812,
+          "saved_increment": 0.0008427924799446607,
+          "absolute_error": 2.0491421059976034e-17
+        },
+        {
+          "merge": 598,
+          "independent_increment": 214.1033040981809,
+          "saved_increment": 214.10330409818172,
+          "absolute_error": 8.242295734817162e-13
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-strong",
+      "subset": "e352fe760fe1847c2e6bc122",
+      "n": 100,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.71806942166728e-06,
+          "saved_increment": 2.7180694216672805e-06,
+          "absolute_error": 4.235164736271502e-22
+        },
+        {
+          "merge": 49,
+          "independent_increment": 0.0010408607367248398,
+          "saved_increment": 0.0010408607367246286,
+          "absolute_error": 2.1120258320017626e-16
+        },
+        {
+          "merge": 98,
+          "independent_increment": 1.7157209835175824,
+          "saved_increment": 1.7157209835175733,
+          "absolute_error": 9.103828801926284e-15
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-weak",
+      "subset": "c22c49c44a47f1354f729df6",
+      "n": 3100,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.4942581489436438e-09,
+          "saved_increment": 1.4942581489394746e-09,
+          "absolute_error": 4.169197082420398e-21
+        },
+        {
+          "merge": 1549,
+          "independent_increment": 2.1488190565541437e-05,
+          "saved_increment": 2.148819056554144e-05,
+          "absolute_error": 3.3881317890172014e-21
+        },
+        {
+          "merge": 3098,
+          "independent_increment": 62.331798256201694,
+          "saved_increment": 62.331798256219486,
+          "absolute_error": 1.779199010343291e-11
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-weak",
+      "subset": "4d51a90914840279f0a81251",
+      "n": 2291,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 3.0399324322168074e-09,
+          "saved_increment": 3.0399324321988017e-09,
+          "absolute_error": 1.800565398374803e-20
+        },
+        {
+          "merge": 1144,
+          "independent_increment": 2.1430535442599828e-05,
+          "saved_increment": 2.1430535442599116e-05,
+          "absolute_error": 7.115076756936123e-19
+        },
+        {
+          "merge": 2289,
+          "independent_increment": 61.47299146668911,
+          "saved_increment": 61.47299146669776,
+          "absolute_error": 8.65441052155802e-12
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-weak",
+      "subset": "b9f59b95cdffe08ac4b65ccd",
+      "n": 600,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.4942581489436438e-09,
+          "saved_increment": 1.4942581489394746e-09,
+          "absolute_error": 4.169197082420398e-21
+        },
+        {
+          "merge": 299,
+          "independent_increment": 2.2347797988799376e-05,
+          "saved_increment": 2.2347798011069858e-05,
+          "absolute_error": 2.227048162854392e-14
+        },
+        {
+          "merge": 598,
+          "independent_increment": 6.208531483758551,
+          "saved_increment": 6.208531483758653,
+          "absolute_error": 1.021405182655144e-13
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-weak",
+      "subset": "e1d60bd427b2fbcd25b3fbb8",
+      "n": 177,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 5.530484433543657e-08,
+          "saved_increment": 5.530484432239761e-08,
+          "absolute_error": 1.3038960492236682e-17
+        },
+        {
+          "merge": 87,
+          "independent_increment": 1.8053078597407687e-05,
+          "saved_increment": 1.8053078597407687e-05,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 175,
+          "independent_increment": 6.99597151344462,
+          "saved_increment": 6.995971513444619,
+          "absolute_error": 8.881784197001252e-16
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-weak",
+      "subset": "3791408aa919ac333d24a6a6",
+      "n": 12,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 9.056216570678047e-06,
+          "saved_increment": 9.056216570678045e-06,
+          "absolute_error": 1.6940658945086007e-21
+        },
+        {
+          "merge": 5,
+          "independent_increment": 0.00014525920047951243,
+          "saved_increment": 0.00014525920047951245,
+          "absolute_error": 2.710505431213761e-20
+        },
+        {
+          "merge": 10,
+          "independent_increment": 0.42241914984668905,
+          "saved_increment": 0.4224191498467238,
+          "absolute_error": 3.47499806707674e-14
+        }
+      ]
+    },
+    {
+      "dataset": "D31",
+      "space": "H-weak",
+      "subset": "4f593d5e1f72b04ae76e44f9",
+      "n": 20,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 4.6352076333162984e-07,
+          "saved_increment": 4.6352076238352664e-07,
+          "absolute_error": 9.481031949217292e-16
+        },
+        {
+          "merge": 9,
+          "independent_increment": 4.261320615187147e-05,
+          "saved_increment": 4.261320615187261e-05,
+          "absolute_error": 1.1384122811097797e-18
+        },
+        {
+          "merge": 18,
+          "independent_increment": 0.0018552729272113052,
+          "saved_increment": 0.0018552729272113039,
+          "absolute_error": 1.3010426069826053e-18
+        }
+      ]
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H",
+      "subset": "98e038d3a30a991777ce2f66",
+      "n": 300,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 149,
+          "independent_increment": 0.0028704126962247048,
+          "saved_increment": 0.0028704126962197977,
+          "absolute_error": 4.907099032669393e-15
+        },
+        {
+          "merge": 298,
+          "independent_increment": 80.89356997036668,
+          "saved_increment": 80.8935699703672,
+          "absolute_error": 5.115907697472721e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H",
+      "subset": "f015abbdd8872acd2d9f5606",
+      "n": 115,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.3033361637553335e-05,
+          "saved_increment": 1.3033361637553335e-05,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 56,
+          "independent_increment": 0.0073602324026402965,
+          "saved_increment": 0.007360232402640508,
+          "absolute_error": 2.1163626406917047e-16
+        },
+        {
+          "merge": 113,
+          "independent_increment": 49.362745004967124,
+          "saved_increment": 49.36274500496679,
+          "absolute_error": 3.339550858072471e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H",
+      "subset": "2cb05e810f58c0ae3e508d3d",
+      "n": 185,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 91,
+          "independent_increment": 0.002170201096403123,
+          "saved_increment": 0.0021702010964012143,
+          "absolute_error": 1.908629504443482e-15
+        },
+        {
+          "merge": 183,
+          "independent_increment": 34.85791936572125,
+          "saved_increment": 34.85791936572018,
+          "absolute_error": 1.0729195309977513e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H-strong",
+      "subset": "98e038d3a30a991777ce2f66",
+      "n": 300,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 149,
+          "independent_increment": 0.013980283368281445,
+          "saved_increment": 0.013980283368281433,
+          "absolute_error": 1.214306433183765e-17
+        },
+        {
+          "merge": 298,
+          "independent_increment": 281.70533424985564,
+          "saved_increment": 281.7053342498541,
+          "absolute_error": 1.5347723092418164e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H-strong",
+      "subset": "c96f8d10de92d3837b61aa29",
+      "n": 84,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 5.369342817534528e-05,
+          "saved_increment": 5.369342817534526e-05,
+          "absolute_error": 2.0328790734103208e-20
+        },
+        {
+          "merge": 41,
+          "independent_increment": 0.05522980384997345,
+          "saved_increment": 0.05522980384997343,
+          "absolute_error": 1.3877787807814457e-17
+        },
+        {
+          "merge": 82,
+          "independent_increment": 119.53853996893835,
+          "saved_increment": 119.53853996893827,
+          "absolute_error": 8.526512829121202e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H-strong",
+      "subset": "72dd3a9a2dfaa83c1d457d90",
+      "n": 125,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 61,
+          "independent_increment": 0.013899278051712323,
+          "saved_increment": 0.013899278051712984,
+          "absolute_error": 6.609296443471635e-16
+        },
+        {
+          "merge": 123,
+          "independent_increment": 26.829385889164577,
+          "saved_increment": 26.82938588916455,
+          "absolute_error": 2.842170943040401e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H-strong",
+      "subset": "197edaeff61eda6738be574a",
+      "n": 91,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.00015633041025779252,
+          "saved_increment": 0.00015633041025779195,
+          "absolute_error": 5.692061405548898e-19
+        },
+        {
+          "merge": 44,
+          "independent_increment": 0.008701371276757349,
+          "saved_increment": 0.008701371276757615,
+          "absolute_error": 2.654126918244515e-16
+        },
+        {
+          "merge": 89,
+          "independent_increment": 7.391086261673099,
+          "saved_increment": 7.3910862616732445,
+          "absolute_error": 1.4566126083082054e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H-weak",
+      "subset": "98e038d3a30a991777ce2f66",
+      "n": 300,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 149,
+          "independent_increment": 0.00037323867720500016,
+          "saved_increment": 0.00037323867720500005,
+          "absolute_error": 1.0842021724855044e-19
+        },
+        {
+          "merge": 298,
+          "independent_increment": 10.988642273714937,
+          "saved_increment": 10.988642273714742,
+          "absolute_error": 1.9539925233402755e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H-weak",
+      "subset": "f015abbdd8872acd2d9f5606",
+      "n": 115,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 1.7664142593811315e-06,
+          "saved_increment": 1.766414245136193e-06,
+          "absolute_error": 1.424493847396657e-14
+        },
+        {
+          "merge": 56,
+          "independent_increment": 0.000764669659254905,
+          "saved_increment": 0.000764669659254898,
+          "absolute_error": 6.938893903907228e-18
+        },
+        {
+          "merge": 113,
+          "independent_increment": 7.452541458458347,
+          "saved_increment": 7.452541458458434,
+          "absolute_error": 8.704148513061227e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Pathbased",
+      "space": "H-weak",
+      "subset": "2cb05e810f58c0ae3e508d3d",
+      "n": 185,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 91,
+          "independent_increment": 0.000288549580142582,
+          "saved_increment": 0.000288549580142582,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 183,
+          "independent_increment": 4.792422425151471,
+          "saved_increment": 4.792422425152288,
+          "absolute_error": 8.171241461241152e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H",
+      "subset": "702746827e553786bb026ac1",
+      "n": 1000,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 499,
+          "independent_increment": 0.00019564193358102586,
+          "saved_increment": 0.0001956419335810259,
+          "absolute_error": 2.710505431213761e-20
+        },
+        {
+          "merge": 998,
+          "independent_increment": 190.72755248709205,
+          "saved_increment": 190.7275524870912,
+          "absolute_error": 8.526512829121202e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H",
+      "subset": "9231e4ae95d04852af1cefca",
+      "n": 679,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 6.064685935518614e-07,
+          "saved_increment": 6.064685932528806e-07,
+          "absolute_error": 2.989808192823762e-16
+        },
+        {
+          "merge": 338,
+          "independent_increment": 0.00015563023103119848,
+          "saved_increment": 0.00015563023103119848,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 677,
+          "independent_increment": 148.65304651585296,
+          "saved_increment": 148.65304651585205,
+          "absolute_error": 9.094947017729282e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H",
+      "subset": "63269b170d06c83271bd65ce",
+      "n": 157,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 77,
+          "independent_increment": 0.000531338869766888,
+          "saved_increment": 0.0005313388697668754,
+          "absolute_error": 1.2576745200831851e-17
+        },
+        {
+          "merge": 155,
+          "independent_increment": 3.5743487473692035,
+          "saved_increment": 3.5743487473691826,
+          "absolute_error": 2.0872192862952943e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H",
+      "subset": "1e72f532b190a979e12bab18",
+      "n": 164,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 6.170836979763571e-07,
+          "saved_increment": 6.170836959211404e-07,
+          "absolute_error": 2.055216708657956e-15
+        },
+        {
+          "merge": 81,
+          "independent_increment": 0.00018290198721519768,
+          "saved_increment": 0.00018290198721519763,
+          "absolute_error": 5.421010862427522e-20
+        },
+        {
+          "merge": 162,
+          "independent_increment": 5.515079017857652,
+          "saved_increment": 5.51507901785812,
+          "absolute_error": 4.68070027181966e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H-strong",
+      "subset": "702746827e553786bb026ac1",
+      "n": 1000,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 499,
+          "independent_increment": 0.0009127797790958084,
+          "saved_increment": 0.0009127797790958153,
+          "absolute_error": 6.830473686658678e-18
+        },
+        {
+          "merge": 998,
+          "independent_increment": 726.2605714038875,
+          "saved_increment": 726.2605714038868,
+          "absolute_error": 6.821210263296962e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H-strong",
+      "subset": "50eda71c7286660802d52c44",
+      "n": 843,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 2.4423048294493374e-06,
+          "saved_increment": 2.4423048103043218e-06,
+          "absolute_error": 1.9145015603503224e-14
+        },
+        {
+          "merge": 420,
+          "independent_increment": 0.0007385491400132151,
+          "saved_increment": 0.0007385491400132114,
+          "absolute_error": 3.686287386450715e-18
+        },
+        {
+          "merge": 841,
+          "independent_increment": 561.9869217483442,
+          "saved_increment": 561.986921748341,
+          "absolute_error": 3.183231456205249e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H-strong",
+      "subset": "63269b170d06c83271bd65ce",
+      "n": 157,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 77,
+          "independent_increment": 0.0023382506522078962,
+          "saved_increment": 0.002338250652207819,
+          "absolute_error": 7.719519468096792e-17
+        },
+        {
+          "merge": 155,
+          "independent_increment": 19.69131376881348,
+          "saved_increment": 19.69131376881369,
+          "absolute_error": 2.0961010704922955e-13
+        }
+      ]
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H-weak",
+      "subset": "702746827e553786bb026ac1",
+      "n": 1000,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 499,
+          "independent_increment": 2.6023146408567295e-05,
+          "saved_increment": 2.602314642573121e-05,
+          "absolute_error": 1.7163916501191506e-14
+        },
+        {
+          "merge": 998,
+          "independent_increment": 26.342572635265178,
+          "saved_increment": 26.342572635265157,
+          "absolute_error": 2.1316282072803006e-14
+        }
+      ]
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H-weak",
+      "subset": "9231e4ae95d04852af1cefca",
+      "n": 679,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 8.244986593318492e-08,
+          "saved_increment": 8.244986593242939e-08,
+          "absolute_error": 7.555269191712342e-19
+        },
+        {
+          "merge": 338,
+          "independent_increment": 1.9992702916890026e-05,
+          "saved_increment": 1.9992702916890026e-05,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 677,
+          "independent_increment": 20.305269367257683,
+          "saved_increment": 20.30526936725545,
+          "absolute_error": 2.234656903965515e-12
+        }
+      ]
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H-weak",
+      "subset": "63269b170d06c83271bd65ce",
+      "n": 157,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 0.0,
+          "saved_increment": 0.0,
+          "absolute_error": 0.0
+        },
+        {
+          "merge": 77,
+          "independent_increment": 7.068077489022026e-05,
+          "saved_increment": 7.068077489022028e-05,
+          "absolute_error": 1.3552527156068805e-20
+        },
+        {
+          "merge": 155,
+          "independent_increment": 0.47002899160771006,
+          "saved_increment": 0.4700289916077149,
+          "absolute_error": 4.829470157119431e-15
+        }
+      ]
+    },
+    {
+      "dataset": "Skewed",
+      "space": "H-weak",
+      "subset": "1e72f532b190a979e12bab18",
+      "n": 164,
+      "checks": [
+        {
+          "merge": 0,
+          "independent_increment": 8.264238778760144e-08,
+          "saved_increment": 8.264238778245175e-08,
+          "absolute_error": 5.149695621510129e-18
+        },
+        {
+          "merge": 81,
+          "independent_increment": 2.39721756064932e-05,
+          "saved_increment": 2.3972175613533108e-05,
+          "absolute_error": 7.039907665064987e-15
+        },
+        {
+          "merge": 162,
+          "independent_increment": 0.7164375442850113,
+          "saved_increment": 0.7164375442856459,
+          "absolute_error": 6.346034808757395e-13
+        }
+      ]
+    }
+  ]
+}

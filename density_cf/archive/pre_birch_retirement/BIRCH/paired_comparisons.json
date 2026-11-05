@@ -1,0 +1,1058 @@
+[
+  {
+    "dataset": "Aggregation",
+    "method": "MA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.00011250157991771204
+    ],
+    "mean_difference": -0.00011250157991771204
+  },
+  {
+    "dataset": "Aggregation",
+    "method": "SA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.27564374714285445
+    ],
+    "mean_difference": 0.27564374714285445
+  },
+  {
+    "dataset": "Aggregation",
+    "method": "Rand",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.001423087911402221
+    ],
+    "mean_difference": -0.001423087911402221
+  },
+  {
+    "dataset": "Aggregation",
+    "method": "BO-TPE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.005787664768362566
+    ],
+    "mean_difference": -0.005787664768362566
+  },
+  {
+    "dataset": "Aggregation",
+    "method": "Anneal",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.055892578345769106
+    ],
+    "mean_difference": 0.055892578345769106
+  },
+  {
+    "dataset": "Aggregation",
+    "method": "PSO",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.00573277462291899
+    ],
+    "mean_difference": -0.00573277462291899
+  },
+  {
+    "dataset": "Aggregation",
+    "method": "GA",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.014918544916800891
+    ],
+    "mean_difference": -0.014918544916800891
+  },
+  {
+    "dataset": "Aggregation",
+    "method": "DE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.016346755896883614
+    ],
+    "mean_difference": 0.016346755896883614
+  },
+  {
+    "dataset": "Aggregation",
+    "method": "MA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.024168430564658616
+    ],
+    "mean_difference": -0.024168430564658616
+  },
+  {
+    "dataset": "Aggregation",
+    "method": "SA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.27564374714285445
+    ],
+    "mean_difference": 0.27564374714285445
+  },
+  {
+    "dataset": "Aggregation",
+    "method": "MA-Random",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.002086917204720651
+    ],
+    "mean_difference": 0.002086917204720651
+  },
+  {
+    "dataset": "Aggregation",
+    "method": "Grid-30",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0
+    ],
+    "mean_difference": 0.0
+  },
+  {
+    "dataset": "Compound",
+    "method": "MA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0005227872817492041
+    ],
+    "mean_difference": -0.0005227872817492041
+  },
+  {
+    "dataset": "Compound",
+    "method": "SA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.012937605491776138
+    ],
+    "mean_difference": 0.012937605491776138
+  },
+  {
+    "dataset": "Compound",
+    "method": "Rand",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0
+    ],
+    "mean_difference": 0.0
+  },
+  {
+    "dataset": "Compound",
+    "method": "BO-TPE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.032412102661382614
+    ],
+    "mean_difference": -0.032412102661382614
+  },
+  {
+    "dataset": "Compound",
+    "method": "Anneal",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.09017766380669212
+    ],
+    "mean_difference": -0.09017766380669212
+  },
+  {
+    "dataset": "Compound",
+    "method": "PSO",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.004293891382113668
+    ],
+    "mean_difference": -0.004293891382113668
+  },
+  {
+    "dataset": "Compound",
+    "method": "GA",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.009723535235448
+    ],
+    "mean_difference": 0.009723535235448
+  },
+  {
+    "dataset": "Compound",
+    "method": "DE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.051532505671423534
+    ],
+    "mean_difference": -0.051532505671423534
+  },
+  {
+    "dataset": "Compound",
+    "method": "MA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0020028782055121486
+    ],
+    "mean_difference": -0.0020028782055121486
+  },
+  {
+    "dataset": "Compound",
+    "method": "SA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.012937605491776138
+    ],
+    "mean_difference": 0.012937605491776138
+  },
+  {
+    "dataset": "Compound",
+    "method": "MA-Random",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.006630193131227924
+    ],
+    "mean_difference": 0.006630193131227924
+  },
+  {
+    "dataset": "Compound",
+    "method": "Grid-30",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.004293891382113668
+    ],
+    "mean_difference": -0.004293891382113668
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "MA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.05234099768534378
+    ],
+    "mean_difference": 0.05234099768534378
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "SA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.037792575687225494
+    ],
+    "mean_difference": 0.037792575687225494
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "Rand",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0004436588581473444
+    ],
+    "mean_difference": -0.0004436588581473444
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "BO-TPE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.060380228903806565
+    ],
+    "mean_difference": -0.060380228903806565
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "Anneal",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.04753566224541628
+    ],
+    "mean_difference": -0.04753566224541628
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "PSO",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.023876250111350528
+    ],
+    "mean_difference": 0.023876250111350528
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "GA",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0
+    ],
+    "mean_difference": 0.0
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "DE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.023876250111350528
+    ],
+    "mean_difference": 0.023876250111350528
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "MA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.05234099768534378
+    ],
+    "mean_difference": 0.05234099768534378
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "SA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.037792575687225494
+    ],
+    "mean_difference": 0.037792575687225494
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "MA-Random",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0668589681123698
+    ],
+    "mean_difference": -0.0668589681123698
+  },
+  {
+    "dataset": "Pathbased",
+    "method": "Grid-30",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.01836895465008792
+    ],
+    "mean_difference": -0.01836895465008792
+  },
+  {
+    "dataset": "D31",
+    "method": "MA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.00328428525735891
+    ],
+    "mean_difference": -0.00328428525735891
+  },
+  {
+    "dataset": "D31",
+    "method": "SA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.00011107025772705281
+    ],
+    "mean_difference": 0.00011107025772705281
+  },
+  {
+    "dataset": "D31",
+    "method": "Rand",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.00880706028035505
+    ],
+    "mean_difference": 0.00880706028035505
+  },
+  {
+    "dataset": "D31",
+    "method": "BO-TPE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0018904337468713672
+    ],
+    "mean_difference": 0.0018904337468713672
+  },
+  {
+    "dataset": "D31",
+    "method": "Anneal",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.01570808246673605
+    ],
+    "mean_difference": 0.01570808246673605
+  },
+  {
+    "dataset": "D31",
+    "method": "PSO",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.006066562897021566
+    ],
+    "mean_difference": 0.006066562897021566
+  },
+  {
+    "dataset": "D31",
+    "method": "GA",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.000748254886991373
+    ],
+    "mean_difference": 0.000748254886991373
+  },
+  {
+    "dataset": "D31",
+    "method": "DE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0021657445305660605
+    ],
+    "mean_difference": 0.0021657445305660605
+  },
+  {
+    "dataset": "D31",
+    "method": "MA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.005646464994954248
+    ],
+    "mean_difference": 0.005646464994954248
+  },
+  {
+    "dataset": "D31",
+    "method": "SA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.00011107025772705281
+    ],
+    "mean_difference": 0.00011107025772705281
+  },
+  {
+    "dataset": "D31",
+    "method": "MA-Random",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.015555485980507489
+    ],
+    "mean_difference": 0.015555485980507489
+  },
+  {
+    "dataset": "D31",
+    "method": "Grid-30",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0006983488423012441
+    ],
+    "mean_difference": -0.0006983488423012441
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "MA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.1375749491754465
+    ],
+    "mean_difference": -0.1375749491754465
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "SA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0
+    ],
+    "mean_difference": 0.0
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "Rand",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0002653301727019164
+    ],
+    "mean_difference": 0.0002653301727019164
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "BO-TPE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.004421266898861909
+    ],
+    "mean_difference": -0.004421266898861909
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "Anneal",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.016921320975839538
+    ],
+    "mean_difference": 0.016921320975839538
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "PSO",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.053534918051344804
+    ],
+    "mean_difference": -0.053534918051344804
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "GA",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.02701616992569822
+    ],
+    "mean_difference": -0.02701616992569822
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "DE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.053534918051344804
+    ],
+    "mean_difference": -0.053534918051344804
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "MA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.1375749491754465
+    ],
+    "mean_difference": -0.1375749491754465
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "SA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0
+    ],
+    "mean_difference": 0.0
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "MA-Random",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.023562689666792203
+    ],
+    "mean_difference": 0.023562689666792203
+  },
+  {
+    "dataset": "Asymmetric",
+    "method": "Grid-30",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0008908320156910676
+    ],
+    "mean_difference": -0.0008908320156910676
+  },
+  {
+    "dataset": "Skewed",
+    "method": "MA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0011926207017814994
+    ],
+    "mean_difference": 0.0011926207017814994
+  },
+  {
+    "dataset": "Skewed",
+    "method": "SA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.009373441274611372
+    ],
+    "mean_difference": -0.009373441274611372
+  },
+  {
+    "dataset": "Skewed",
+    "method": "Rand",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0017462011912491304
+    ],
+    "mean_difference": -0.0017462011912491304
+  },
+  {
+    "dataset": "Skewed",
+    "method": "BO-TPE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.005645922967454253
+    ],
+    "mean_difference": -0.005645922967454253
+  },
+  {
+    "dataset": "Skewed",
+    "method": "Anneal",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.03184964936883217
+    ],
+    "mean_difference": -0.03184964936883217
+  },
+  {
+    "dataset": "Skewed",
+    "method": "PSO",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.03184964936883217
+    ],
+    "mean_difference": -0.03184964936883217
+  },
+  {
+    "dataset": "Skewed",
+    "method": "GA",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.02432858529892079
+    ],
+    "mean_difference": -0.02432858529892079
+  },
+  {
+    "dataset": "Skewed",
+    "method": "DE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0016248410097982058
+    ],
+    "mean_difference": -0.0016248410097982058
+  },
+  {
+    "dataset": "Skewed",
+    "method": "MA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.006741735217420719
+    ],
+    "mean_difference": 0.006741735217420719
+  },
+  {
+    "dataset": "Skewed",
+    "method": "SA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.009373441274611372
+    ],
+    "mean_difference": -0.009373441274611372
+  },
+  {
+    "dataset": "Skewed",
+    "method": "MA-Random",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.010947384332527288
+    ],
+    "mean_difference": 0.010947384332527288
+  },
+  {
+    "dataset": "Skewed",
+    "method": "Grid-30",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.032804422585992477
+    ],
+    "mean_difference": -0.032804422585992477
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "MA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.073837512205561
+    ],
+    "mean_difference": -0.073837512205561
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "SA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.004423658868834446
+    ],
+    "mean_difference": -0.004423658868834446
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "Rand",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0005521558387565628
+    ],
+    "mean_difference": -0.0005521558387565628
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "BO-TPE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.04659082745647747
+    ],
+    "mean_difference": 0.04659082745647747
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "Anneal",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0038421999350890523
+    ],
+    "mean_difference": 0.0038421999350890523
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "PSO",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      4.513082652990441e-05
+    ],
+    "mean_difference": 4.513082652990441e-05
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "GA",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.004711440323066474
+    ],
+    "mean_difference": -0.004711440323066474
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "DE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.013482388268998502
+    ],
+    "mean_difference": 0.013482388268998502
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "MA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.073837512205561
+    ],
+    "mean_difference": -0.073837512205561
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "SA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.004423658868834446
+    ],
+    "mean_difference": -0.004423658868834446
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "MA-Random",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.007242679778527883
+    ],
+    "mean_difference": 0.007242679778527883
+  },
+  {
+    "dataset": "Cure-t1",
+    "method": "Grid-30",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0019035897949679637
+    ],
+    "mean_difference": -0.0019035897949679637
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "MA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0036273316361259966
+    ],
+    "mean_difference": -0.0036273316361259966
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "SA-TD3",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.008876237086100969
+    ],
+    "mean_difference": -0.008876237086100969
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "Rand",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0013926819422864778
+    ],
+    "mean_difference": -0.0013926819422864778
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "BO-TPE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.030406328849253872
+    ],
+    "mean_difference": -0.030406328849253872
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "Anneal",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.004538863647181257
+    ],
+    "mean_difference": 0.004538863647181257
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "PSO",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.018428388255169792
+    ],
+    "mean_difference": 0.018428388255169792
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "GA",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0026416618002212955
+    ],
+    "mean_difference": 0.0026416618002212955
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "DE",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.004015479264967481
+    ],
+    "mean_difference": -0.004015479264967481
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "MA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.0036273316361259966
+    ],
+    "mean_difference": -0.0036273316361259966
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "SA-FrozenActor",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.008876237086100969
+    ],
+    "mean_difference": -0.008876237086100969
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "MA-Random",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      0.0013757831683252064
+    ],
+    "mean_difference": 0.0013757831683252064
+  },
+  {
+    "dataset": "Cure-t2",
+    "method": "Grid-30",
+    "seeds": [
+      0
+    ],
+    "differences": [
+      -0.006583555978593836
+    ],
+    "mean_difference": -0.006583555978593836
+  }
+]
