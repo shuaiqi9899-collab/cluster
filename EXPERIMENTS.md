@@ -2,6 +2,8 @@
 
 本文件介绍在原始TPAMI AR-DBSCAN Fig.6欧氏复现基础上新增的工作。原始`README.md`、`reproduce_fig6.py`、`author_source/`和`reference/`保持原样；原README中的“不包含双曲迁移”描述原始复现包，后续扩展见本文件。
 
+**新增目录实验正在运行：** [80条目录的H-only流程](benchmarks80/README.md)、[已核对数据与中途快照](benchmarks80/report/README.md)。本轮仅运行双曲DBSCAN、AC、HDBSCAN，每条纳入数据跑10种子；初次取得47条匹配数据，候选目标16450例。未核实精确版本、规模超限和网络阻断分别记录，不将中途结果称为全部完成。
+
 ## 已完成的实验
 
 | 算法 | 代码与运行说明 | 已完成案例 | 报告 | 双曲空间主图 |

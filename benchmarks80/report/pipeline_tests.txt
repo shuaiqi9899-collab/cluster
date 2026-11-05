@@ -1,0 +1,17 @@
+test_catalog_and_no_sampling (benchmarks80.test_pipeline.PipelineTests) ... ok
+test_merge_preserves_noise_and_no_label_collisions (benchmarks80.test_pipeline.PipelineTests) ... ok
+test_native_mean_in_sixty_four_dimensions (benchmarks80.test_pipeline.PipelineTests) ... ok
+test_only_hyperbolic_geometry_and_full_dimensions (benchmarks80.test_pipeline.PipelineTests) ... ok
+test_predictions_match_stock_native_metric (benchmarks80.test_pipeline.PipelineTests) ... ok
+test_retired_backend_rejected (benchmarks80.test_pipeline.PipelineTests) ... ok
+test_support_labels_cannot_change_predictions_and_all_budgets (benchmarks80.test_pipeline.PipelineTests) ... /workspace/cluster/.venv/lib/python3.10/site-packages/hyperopt/atpe.py:19: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/workspace/cluster/.venv/lib/python3.10/site-packages/pkg_resources/__init__.py:2871: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.690s
+
+OK

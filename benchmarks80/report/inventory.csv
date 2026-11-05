@@ -1,0 +1,81 @@
+id,name,n_declared,n_actual,d_actual,status,reason
+1,Iris,150,150,4,ready,
+2,Wine,178,178,13,ready,
+3,Seeds,210,210,7,ready,
+4,Glass,214,214,9,ready,
+5,Ecoli,336,336,7,ready,
+6,Yeast,1484,1484,8,ready,
+7,WDBC,569,569,30,ready,
+8,Ionosphere,351,351,34,ready,
+9,Sonar,208,208,60,ready,
+10,Haberman,306,306,3,ready,
+11,Balance Scale,625,625,4,ready,
+12,Breast Cancer Wisconsin Original,699,699,9,ready,
+13,Banknote Authentication,1372,1372,4,ready,
+14,Image Segmentation,2310,2310,19,ready,
+15,Pendigits,10992,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+16,Optdigits,5620,,,blocked_network,"HTTPSConnectionPool(host='archive.ics.uci.edu', port=443): Max retries exceeded with url: /static/public/80/optical+recognition+of+handwritten+digits.zip (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+17,Letter Recognition,20000,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+18,Satimage,6435,,,blocked_network,"HTTPSConnectionPool(host='archive.ics.uci.edu', port=443): Max retries exceeded with url: /static/public/146/statlog+landsat+satellite.zip (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+19,Spambase,4601,,,blocked_network,"HTTPSConnectionPool(host='archive.ics.uci.edu', port=443): Max retries exceeded with url: /static/public/94/spambase.zip (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+20,Waveform v1,5000,,,blocked_network,"HTTPSConnectionPool(host='archive.ics.uci.edu', port=443): Max retries exceeded with url: /static/public/107/waveform+database+generator+version+1.zip (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+21,Aggregation,788,788,2,ready,
+22,Compound,399,399,2,ready,
+23,Flame,240,240,2,ready,
+24,Jain,373,373,2,ready,
+25,Pathbased,300,300,2,ready,
+26,Spiral,312,312,2,ready,
+27,R15,600,600,2,ready,
+28,D31,3100,3100,2,ready,
+29,S1,5000,5000,2,ready,
+30,S2,5000,5000,2,ready,
+31,S3,5000,5000,2,ready,
+32,S4,5000,5000,2,ready,
+33,A1,3000,3000,2,ready,
+34,A2,5250,5250,2,ready,
+35,A3,7500,7500,2,ready,
+36,Unbalance,6500,6500,2,ready,
+37,Birch1,100000,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+38,Birch2,100000,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+39,Atom,800,800,3,ready,
+40,Chainlink,1000,1000,3,ready,
+41,EngyTime,4096,4096,2,ready,
+42,Hepta,212,212,3,ready,
+43,Lsun,400,400,2,ready,
+44,Target,770,770,2,ready,
+45,Tetra,400,400,3,ready,
+46,TwoDiamonds,800,800,2,ready,
+47,WingNut,1016,1016,2,ready,
+48,Unbalance2,6500,6500,2,ready,
+49,Asymmetric,1000,1000,2,ready,
+50,Skewed,1000,1000,2,ready,
+51,Cure-t1-2000n-2D,2000,2000,2,ready,
+52,Cure-t2-4k-2D,4000,4200,2,ready,
+53,Powersupply,29928,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+54,BDGP,2500,,,excluded_exact_package_not_located,No verified matching artifact found in catalog repositories/accessible mirrors; no version substitution
+55,MNIST-USPS,5000,,,excluded_exact_package_not_located,No verified matching artifact found in catalog repositories/accessible mirrors; no version substitution
+56,Digit-Product,30000,,,excluded_missing_exact_package,Catalog explicitly lacks the exact PRIME preprocessed package; user authorized deferral
+57,ALOI (PRIME),10800,,,excluded_missing_exact_package,Catalog explicitly lacks the exact PRIME preprocessed package; user authorized deferral
+58,Caltech-4V (PRIME),1400,,,excluded_missing_exact_package,Catalog explicitly lacks the exact PRIME preprocessed package; user authorized deferral
+59,Caltech-5V (PRIME),1400,,,excluded_missing_exact_package,Catalog explicitly lacks the exact PRIME preprocessed package; user authorized deferral
+60,Multiple Features / Handwritten,2000,,,blocked_network,"HTTPSConnectionPool(host='archive.ics.uci.edu', port=443): Max retries exceeded with url: /static/public/72/multiple+features.zip (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+61,Caltech101-20 (6V features),2386,,,excluded_exact_package_not_located,No verified matching artifact found in catalog repositories/accessible mirrors; no version substitution
+62,3Sources (complete 3V),169,169,10259,ready,
+63,BBCSport (2V),544,,,excluded_exact_package_not_located,No verified matching artifact found in catalog repositories/accessible mirrors; no version substitution
+64,MNIST,70000,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+65,Fashion-MNIST,70000,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+66,USPS,9298,,,blocked_network,"HTTPSConnectionPool(host='www.csie.ntu.edu.tw', port=443): Max retries exceeded with url: /~cjlin/libsvmtools/datasets/multiclass/usps.bz2 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+67,COIL-20,1440,,,blocked_network,"HTTPSConnectionPool(host='www.cs.columbia.edu', port=443): Max retries exceeded with url: /CAVE/databases/coil-20/coil-20-proc.zip (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+68,COIL-100,7200,,,blocked_network,"HTTPSConnectionPool(host='www.cs.columbia.edu', port=443): Max retries exceeded with url: /CAVE/databases/coil-100/coil-100.zip (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+69,ORL / AT&T Faces,400,,,blocked_network,"HTTPSConnectionPool(host='www.cl.cam.ac.uk', port=443): Max retries exceeded with url: /Research/DTG/attarchive/pub/data/att_faces.zip (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+70,Yale Face (original),165,,,blocked_network,"HTTPSConnectionPool(host='cvc.cs.yale.edu', port=443): Max retries exceeded with url: /cvc/projects/yalefaces/yalefaces.zip (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+71,CIFAR-10,60000,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+72,CIFAR-100,60000,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+73,20 Newsgroups,18846,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+74,Reuters-21578 (raw corpus),21578,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+75,RCV1-v2,804414,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+76,Cora,2708,2708,1433,ready,
+77,CiteSeer,3327,3327,3703,ready,
+78,PubMed,19717,,,excluded_resource,Original N>10000; no subsampling;4CPU/32GiB conservative full-data admission limit
+79,G2 family,2048,,,blocked_network,"HTTPSConnectionPool(host='cs.uef.fi', port=443): Max retries exceeded with url: /sipu/datasets/g2-32-50.txt (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+80,DIM high-dimensional family,1024,,,blocked_network,"HTTPSConnectionPool(host='cs.uef.fi', port=443): Max retries exceeded with url: /sipu/datasets/dim064.txt (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"

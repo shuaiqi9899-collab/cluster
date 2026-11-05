@@ -1,0 +1,28 @@
+{
+  "catalog": 80,
+  "data_statuses": {
+    "ready": 47,
+    "excluded_resource": 13,
+    "blocked_network": 12,
+    "excluded_exact_package_not_located": 4,
+    "excluded_missing_exact_package": 4
+  },
+  "ready_datasets": 47,
+  "candidate_cases": 16450,
+  "successful_cases": 11052,
+  "failed_cases": [],
+  "space": "H",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "sampling": false
+}
