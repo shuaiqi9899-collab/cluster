@@ -9,7 +9,7 @@
   },
   "ready_datasets": 47,
   "candidate_cases": 16450,
-  "successful_cases": 11052,
+  "successful_cases": 14700,
   "failed_cases": [],
   "space": "H",
   "seeds": [
@@ -24,5 +24,16 @@
     8,
     9
   ],
-  "sampling": false
+  "sampling": false,
+  "queue_state": "ended_with_deferrals",
+  "verified_completed_datasets": 42,
+  "verified_completed_cases": 14700,
+  "actually_running": false,
+  "deferred_resource_datasets": [
+    "06-yeast",
+    "36-unbalance",
+    "48-unbalance2",
+    "76-cora",
+    "77-citeseer"
+  ]
 }
